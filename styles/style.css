@@ -1,0 +1,30 @@
+html, body {
+    background-color: azure;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Calibri', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 63px;
+    border: none;
+}
+
+.contents {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.circ-button {
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Calibri', sans-serif;
+    background-color: #f8f8f8;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+.nav-bar li {
+    display: inline-block;
+}
+.nav-bar li a {
+    display: block;
+    color: #000;
+    padding: 20px 16px;
+    width: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+.active {
+    font-weight: bold;
+    color: #1cacd7 !important;
+    background-color: black;
+}
+/* Change the link color on hover */
+.nav-bar li a:hover {
+    color: #1cacd7;
+}
