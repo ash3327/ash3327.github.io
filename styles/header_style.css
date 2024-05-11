@@ -2,7 +2,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     font-family: 'Calibri', sans-serif;
-    background-color: #f8f8f8;
+    background-color: #f1f1f1;
 }
 
 .nav-bar {
@@ -10,11 +10,11 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #f1f1f1;
     overflow: hidden;
 }
 .nav-bar li {
     display: inline-block;
+    height: 60px;
 }
 .nav-bar li a {
     display: block;
