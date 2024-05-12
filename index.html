@@ -5,34 +5,50 @@
     <meta name="description" content="Personal Website of Sam">
     <title>Sam's Personal Website</title>
     <style>
+      @import "styles/base_style.css";
       @import "styles/style.css";
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <iframe src="./header.html?page=home" class="header"></iframe>
     <div class="contents">
-      <h2>Home</h2>
-      <p>Test</p>
-      <button title="hi" class="circ-button">Subscribe</button>
-      <br>
-      <p><b>References that guided me in this project: </b></p>
-      <ol>
-        <li>
-          <a href="https://www.youtube.com/watch?v=EerdGm-ehJQ&ab_channel=SuperSimpleDev">SuperSimpleDev: JavaScript Tutorial Full Course - Beginner to Pro (2024)</a>
-        </li> 
-        <li>
-          <a href="https://www.w3schools.com/css/css_navbar.asp">W3Schools: CSS Navigation Bar</a>
-        </li>
-        <li>
-          https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file
-        </li>
-        <li>
-          https://www.smashingmagazine.com/2016/12/styling-web-components-using-a-shared-style-sheet/
-        </li>
-        <li>
-          https://stackoverflow.com/questions/536538/pass-value-to-iframe-from-a-window
-        </li>
-      </ol>
+      <div class="panel">
+        <h1 class="light-title">
+          <span class="cursive-text">Sam</span> is a year-3 student majoring in Artificial Intelligence at <span style="color: var(--btn-active-textcolor);">the Chinese University of Hong Kong</span>
+        </h1>
+        <img src="./res/scenary.jpeg">
+      </div>
+      <div class="panel">
+        <div class="panel-child panel-child-mov" style="background-color: bisque; height: 200px;"></div>
+        <div class="panel-child">
+          <div class="panel-child-mov">
+            <h2 class="light-title">About Me</h2>
+            <p>Hardworking and passionate third-year student majoring in Artificial Intelligence, targeting an internship role in Artificial Intelligence Engineer or Software Engineer, eagar to apply knowledge in machine learning and deep learning to drive innovative and practical solutions to real life problems.</p>
+          </div>
+          <button title="hi" class="circ-button" style="float: right;">Learn More <i class="fa fa-angle-double-right" style="font-size: medium;"></i></button>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="panel-child">
+          <div class="panel-child-mov">
+            <h2 class="light-title">Projects</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id imperdiet nisi. Aenean neque nulla, accumsan eu magna at, sodales lobortis nunc. Nulla molestie enim in bibendum maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+          </div>
+          <button title="hi" class="circ-button" style="float: right;" onclick="location.href='./projects.html'">Learn More <i class="fa fa-angle-double-right" style="font-size: medium;"></i></button>
+        </div>
+        <div class="panel-child panel-child-mov" style="background-color: aquamarine; height: 200px;"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-child panel-child-mov" style="background-color: pink; height: 200px;"></div>
+        <div class="panel-child">
+          <div class="panel-child-mov">
+            <h2 class="light-title">What am I doing lately...</h2>
+            <p>Vestibulum et egestas sapien, nec congue lacus. Sed nec condimentum erat. Sed luctus lacus mi, eget vehicula sem vehicula at. Sed tortor leo, porta ut quam eget, euismod congue tortor. Phasellus egestas et lacus ut aliquet. Donec porttitor ultrices nisl at sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+          </div>
+          <button title="hi" class="circ-button" style="float: right;">Learn More <i class="fa fa-angle-double-right" style="font-size: medium;"></i></button>
+        </div>
+      </div>
     </div>
   </body>
 </html>

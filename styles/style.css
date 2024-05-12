@@ -1,26 +1,90 @@
+:root {
+    --img-scale: 1.05;
+    --img-scale-time: 0.5s;
+}
+
 html, body {
-    background-color: azure;
+    background-color: var(--doc-bg-color);
     margin: 0px;
     padding: 0px;
-    font-family: 'Calibri', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .header {
     width: 100%;
     height: 60px;
     border: none;
+    margin-bottom: 50px;
+    position: fixed;
+    z-index: 100;
 }
 
 .contents {
     padding-left: 25px;
     padding-right: 25px;
+    padding-top: 100px;
+}
+
+.light-title {
+    font-weight: lighter;
+    padding: 40px;
+}
+
+.cursive-text {
+    font-family: Copperplate, Papyrus, fantas; 
+    line-height: 0%;
+}
+
+.panel {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 50px;
+}
+
+.panel h1, img, .panel-child {
+    width: 30%; 
+    display: inline-block; 
+    vertical-align: middle;
+    transition: var(--img-scale-time) ease;
+}
+
+.panel-child {
+    padding: 40px;
+}
+
+
+.panel img {
+    width: 35%;
+}
+
+.panel img:hover, h1:hover, .panel-child-mov:hover {
+    -webkit-transform: scale(var(--img-scale));
+    -ms-transform: scale(var(--img-scale));
+    transform: scale(var(--img-scale));
+    transition: var(--img-scale-time) ease;
+}
+
+.panel-child-mov {
+    transition: var(--img-scale-time) ease;
+}
+
+.panel-child h2 {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.panel-child p {
+    text-align: justify;
 }
 
 .circ-button {
     border: none;
     background-color: black;
     color: white;
-    font-weight: bold;
+    font-weight: lighter;
+    letter-spacing: 1px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
