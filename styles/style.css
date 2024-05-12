@@ -105,4 +105,20 @@ section {
     padding-right: 20px;
     border-radius: 50px;
     cursor: pointer;
+    transition: var(--img-scale-time) ease;
+}
+
+.circ-button:hover {
+    -webkit-transform: scale(var(--img-scale));
+    -ms-transform: scale(var(--img-scale));
+    transform: scale(var(--img-scale));
+    background-color: var(--circ-btn-active-color);
+}
+
+pa {
+    cursor: pointer;
+}
+
+pa:hover {
+    color: var(--link-active-textcolor);
 }
