@@ -1,0 +1,57 @@
+[
+    {
+        "date": "Mar 2024",
+        "title": "Protein Sequence Classification Kaggle Competition",
+        "subtitle": "THE CHINESE UNIVERSITY OF HONG KONG: Course Assignment",
+        "tags": ["AI/ML"],
+        "descr": 
+            [
+                "<ul>",
+                "<li>Applied pretrained ProtTrans transformer model and trained a fully-connected classifier head in Python</li>",
+                "<li>Achieved 98.438% accuracy on public leaderboard and 94.161% accuracy on private leaderboard</li>",
+                "</ul>"
+            ]
+    },
+    {
+        "date": "Aug 2023",
+        "title": "Image Segmentation Project",
+        "subtitle": "Self Project",
+        "tags": ["AI/ML"],
+        "descr": 
+            [
+                "<ul>",
+                "<li>Trained a U-Net model for semantic segmentation from scratch on the Cityscape dataset and Carvana dataset</li>",
+                "<li>Applied pre-trained YOLO-v5 model for real-time tracking of cars</li>",
+                "<li>Self-implemented an instance label assigning function based on maximum overlap to stablize the labelled id on each car moving across frames.</li>",
+                "</ul>"
+            ]
+    },
+    {
+        "date": "Oct - Dec 2022",
+        "title": "Deep Q-Learning Shooter Game Project “SnowFight”",
+        "subtitle": "THE CHINESE UNIVERSITY OF HONG KONG: Course Assignment",
+        "tags": ["AI/ML"],
+        "descr": 
+            [
+                "<ul>",
+                "<li>Created a Gym environment of a simple third-person shooter game in Python Led the project and planned an efficient work schedule, while collaborating closely with groupmate throughout the development</li>",
+                "<li>Implemented a simple Deep-Q Network with PyTorch to train agents to master at the game</li>",
+                "<li>Fine-tuned the hyperparameters of the agent, achieving average kill streak of 30x and lengthend the survival duration by 4 times from the random baseline.</li>",
+                "</ul>"
+            ]
+    },
+    {
+        "date": "Mar 2023 - Ongoing",
+        "title": "Calendar App Project “Oasis”",
+        "subtitle": "Self Project",
+        "tags": ["General", "Ongoing"],
+        "descr": 
+            [
+                "<ul>",
+                "<li>Independently developed a mobile event planning and notification application for Android using Java, aiming to help users track their deadlines and events</li>",
+                "<li>Migrated the data storage and retrieval to the more robust RoomDatabase</li>",
+                "<li>Refactored codebase into distinct UI layers and business logic components</li>",
+                "</ul>"
+            ]
+    }
+]

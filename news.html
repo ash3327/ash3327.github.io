@@ -7,6 +7,7 @@
     <style>
       @import "styles/base_style.css";
       @import "styles/style.css";
+      @import "styles/timeline.css";
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="scripts/data_box.js"></script>
@@ -20,11 +21,11 @@
           <script>box_load(_desc_box_path, 'news', 'news_title', 'news_desc');</script>
         </div>
       </div>
-      <h2>News</h2>
-      <p>Curabitur a aliquet quam. Vivamus ullamcorper turpis quis congue dictum. Aliquam semper auctor euismod. Ut facilisis pharetra risus at faucibus. Integer suscipit varius ornare. Vivamus at lobortis nulla. Ut et posuere ex. Suspendisse elementum, orci quis vestibulum feugiat, augue lacus ultricies elit, nec posuere nisi lacus vitae dolor. Nulla varius tempus ipsum, lobortis blandit dui elementum vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </p><p>
-      Aenean elit nunc, volutpat eget imperdiet sed, consequat vel elit. Etiam fringilla magna at convallis vestibulum. Donec non tristique diam. Maecenas eget finibus ipsum. Aliquam ac ultrices tellus, et aliquam lorem. Fusce purus urna, laoreet vel rutrum sit amet, porttitor id erat. Maecenas sagittis efficitur massa. Donec mi massa, rutrum sit amet iaculis eget, sollicitudin et dolor. Nulla facilisi. Morbi at nisi id lectus iaculis commodo. Aenean nec posuere leo. Etiam vel velit ac turpis hendrerit dapibus.</p>
-      <button title="hi" class="circ-button">Subscribe</button>
+      <h2 class="timeline-header">Latest Projects</h2></div>
+      <ul id="project_timeline" class="timeline">
+        <script>timeline_load(_project_path, "project_timeline", ["Ongoing"])</script>
+        <li></li>
+      </ul>
     </div>
   </body>
 </html>

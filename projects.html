@@ -7,6 +7,7 @@
     <style>
       @import "styles/base_style.css";
       @import "styles/style.css";
+      @import "styles/timeline.css";
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="scripts/data_box.js"></script>
@@ -20,10 +21,12 @@
           <script>box_load(_desc_box_path, 'projects', 'projects_title', 'projects_desc');</script>
         </div>
       </div>
-      <h2>Projects</h2>
-      <p>Sed a arcu non massa sagittis efficitur. Praesent euismod ut sem quis gravida. Aliquam condimentum sed tellus a laoreet. Nullam efficitur, lorem ut dictum aliquet, felis lorem mollis ipsum, sed tristique turpis tortor et ligula. Phasellus consectetur enim dignissim ullamcorper venenatis. Morbi egestas libero vitae ornare dignissim. Nulla facilisi. Mauris at ipsum tristique velit fringilla pretium a eu nisl. Quisque volutpat leo vitae dolor accumsan auctor. Nullam scelerisque accumsan velit, eu elementum erat convallis vitae. Nullam laoreet odio id nisl eleifend hendrerit. Interdum et malesuada fames ac ante ipsum primis in faucibus. In lobortis massa dolor, sit amet laoreet erat ultricies vel.
-      </p><p>
-      Curabitur ut suscipit neque, quis dapibus massa. Morbi non ultrices lacus, sit amet feugiat diam. Morbi velit risus, gravida vel felis non, ultrices pharetra tortor. Sed maximus finibus sem, eu venenatis enim eleifend in. Nullam porttitor mollis finibus. Integer ex lorem, eleifend id eleifend sed, placerat eu nisi. Praesent a ante risus. Mauris imperdiet, ante et tincidunt pharetra, velit lectus pharetra neque, viverra condimentum sem nisl ac nibh. Etiam quis erat venenatis, eleifend justo elementum, gravida ipsum. Maecenas at tempus purus, vitae tempus magna. Phasellus tempor libero dictum lacus gravida maximus.</p>
+      <div class="panel-child-mov">
+      <h2 class="timeline-header">Projects</h2></div>
+      <ul id="project_timeline" class="timeline">
+        <script>timeline_load(_project_path, "project_timeline", ["AI/ML", "General"])</script>
+        <li></li>
+      </ul>
       <div class="panel">
         <div class="panel-child panel-child-mov" style="background-color: pink; height: 200px;"></div>
         <div class="panel-child">

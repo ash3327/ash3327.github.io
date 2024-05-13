@@ -20,7 +20,7 @@ Reference: https://codepen.io/MarkBoots/pen/OJOqNyB
 
 .timeline {
     --bg-color: rgba(245, 245, 245);
-    --grey-color: #393e46;
+    --grey-color: dimgray;
     --col-gap: 2rem;
     --row-gap: 2rem;
     --line-w: 0.25rem;
@@ -57,7 +57,6 @@ Reference: https://codepen.io/MarkBoots/pen/OJOqNyB
   --inlineP: 1.5rem;
   margin-inline: var(--inlineP);
   grid-row: span 2;
-  display: grid;
   grid-template-rows: min-content min-content min-content;
 }
 
@@ -133,10 +132,19 @@ Reference: https://codepen.io/MarkBoots/pen/OJOqNyB
   background: var(--bg-color);
   position: relative;
   padding-inline: 1.5rem;
-}
-.timeline li .descr {
-  padding-block-end: 1.5rem;
+  padding-block-end: .8rem;
   font-weight: 300;
+}
+.timeline li .descr ul {
+  list-style-type: disc;
+}
+.timeline li .descr li  {
+  margin: 0;
+  pointer-events: none;
+}
+.timeline li .descr p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
 }
 
 /* shadows */
