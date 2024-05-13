@@ -7,7 +7,7 @@
     </style>
     <script>
       function setTabSelected(page) {
-        if (page == 'undefined') 
+        if (page == 'undefined' || page == 'home') 
           return;
         var element = document.getElementById(page);
         element.className = 'active';
