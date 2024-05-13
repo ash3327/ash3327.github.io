@@ -1,0 +1,18 @@
+[
+    {
+        "date": "1 Sep 2021 - Expected Aug 2025",
+        "title": "Bachelor of Engineering (B.Eng.), Artificial Intelligence: Systems & Technologies (AISTN)",
+        "subtitle": "THE CHINESE UNIVERSITY OF HONG KONG, Shatin, Hong Kong",
+        "color": "#E24A68", 
+        "descr": 
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima consequuntur soluta placeat iure totam commodi repellendus ea delectus, libero fugit quod reprehenderit, sequi quo, et dolorum saepe nulla hic."
+    },
+    {
+        "date": "2 Sep 2015 - Aug 2021",
+        "title": "Hong Kong Diploma of Secondary Education (HKDSE)",
+        "subtitle": "BISHOP HALL JUBILEE SCHOOL, Kowloon Tong, Hong Kong",
+        "color": "#41516C", 
+        "descr": 
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima consequuntur soluta placeat iure totam commodi repellendus ea delectus, libero fugit quod reprehenderit, sequi quo, et dolorum saepe nulla hic."
+    }
+]
