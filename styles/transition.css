@@ -7,12 +7,45 @@
   }
 }
 
-body,
-#home:target,
-#aboutme:target,
-#projects:target,
-#news:target {
+@keyframes slideTransition {
+  0% {
+    z-index: 2;
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  100% {
+    z-index: 2;
+    transform: translateX(0px);
+  }
+}
+
+/* body {
   animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+} */
+
+section {
+  position: fixed;
+  z-index: 0;
+  opacity: 1;
+}
+
+#empty {
+  position: fixed;
+  background-color: var(--doc-bg-color);
+  z-index: 1;
+}
+
+section.hidden {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+section:target {
+  position: fixed;
+  animation: slideTransition 2s ease;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }

@@ -18,34 +18,37 @@
 
       window.onload = function() {hashChanged(window.location.hash)};
       if ("onhashchange" in window) { // event supported?
-          window.onhashchange = function () {
-              hashChanged(window.location.hash);
-          }
+        window.onhashchange = function () {
+            hashChanged(window.location.hash);
+        }
       }
       else { // event not supported:
-          var storedHash = window.location.hash;
-          window.setInterval(function () {
-              if (window.location.hash != storedHash) {
-                  storedHash = window.location.hash;
-                  hashChanged(storedHash);
-              }
-          }, 100);
+        var storedHash = window.location.hash;
+        window.setInterval(function () {
+            if (window.location.hash != storedHash) {
+                storedHash = window.location.hash;
+                hashChanged(storedHash);
+            }
+        }, 100);
       }
     </script>
   </head>
   <body style="overflow: hidden;">
     <iframe name="header" id="header" src="./header.html" class="header"></iframe>
-    <section id="home">
-      <iframe src="./home.html" class="main-content"></iframe>
-    </section>
-    <section id="aboutme">
-      <iframe src="./aboutme.html" class="main-content"></iframe>
-    </section>
-    <section id="projects">
-      <iframe src="./projects.html" class="main-content"></iframe>
-    </section>
-    <section id="news">
-      <iframe src="./news.html" class="main-content"></iframe>
-    </section>
+    <div class="sliding-sections">
+      <section id="home">
+        <iframe src="./home.html" class="main-content"></iframe>
+      </section>
+      <section id="aboutme">
+        <iframe src="./aboutme.html" class="main-content"></iframe>
+      </section>
+      <section id="projects">
+        <iframe src="./projects.html" class="main-content"></iframe>
+      </section>
+      <section id="news">
+        <iframe src="./news.html" class="main-content"></iframe>
+      </section>
+      <section id="empty"></section>
+    </div>
   </body>
 </html>
