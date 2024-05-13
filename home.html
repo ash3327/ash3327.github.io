@@ -9,6 +9,7 @@
       @import "styles/style.css";
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/data_box.js"></script>
   </head>
   <body>
     <div class="contents">
@@ -22,8 +23,9 @@
         <div class="panel-child panel-child-mov" style="background-color: bisque; height: 200px;"></div>
         <div class="panel-child">
           <div class="panel-child-mov">
-            <h2 class="light-title">About Me</h2>
-            <p>Hardworking and passionate third-year student majoring in Artificial Intelligence, targeting an internship role in Artificial Intelligence Engineer or Software Engineer, eagar to apply knowledge in machine learning and deep learning to drive innovative and practical solutions to real life problems.</p>
+            <h2 id="aboutme_title" class="light-title"></h2>
+            <p id="aboutme_desc"></p>
+            <script>box_load(_desc_box_path, 'aboutme', 'aboutme_title', 'aboutme_desc');</script>
           </div>
           <button class="circ-button" style="float: right;" onclick="parent.location.href='./index.html#aboutme'">Learn More <i class="fa fa-angle-double-right" style="font-size: medium;"></i></button>
         </div>
@@ -31,8 +33,9 @@
       <div class="panel">
         <div class="panel-child">
           <div class="panel-child-mov">
-            <h2 class="light-title">Projects</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id imperdiet nisi. Aenean neque nulla, accumsan eu magna at, sodales lobortis nunc. Nulla molestie enim in bibendum maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+            <h2 id="projects_title" class="light-title"></h2>
+            <p id="projects_desc"></p>
+            <script>box_load(_desc_box_path, 'projects', 'projects_title', 'projects_desc');</script>
           </div>
           <button class="circ-button" style="float: right;" onclick="parent.location.href='./index.html#projects'">Learn More <i class="fa fa-angle-double-right" style="font-size: medium;"></i></button>
         </div>
@@ -42,8 +45,9 @@
         <div class="panel-child panel-child-mov" style="background-color: pink; height: 200px;"></div>
         <div class="panel-child">
           <div class="panel-child-mov">
-            <h2 class="light-title">What am I doing lately...</h2>
-            <p>Vestibulum et egestas sapien, nec congue lacus. Sed nec condimentum erat. Sed luctus lacus mi, eget vehicula sem vehicula at. Sed tortor leo, porta ut quam eget, euismod congue tortor. Phasellus egestas et lacus ut aliquet. Donec porttitor ultrices nisl at sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <h2 id="news_title" class="light-title"></h2>
+            <p id="news_desc"></p>
+            <script>box_load(_desc_box_path, 'news', 'news_title', 'news_desc');</script>
           </div>
           <button class="circ-button" style="float: right;" onclick="parent.location.href='./index.html#news'">Learn More <i class="fa fa-angle-double-right" style="font-size: medium;"></i></button>
         </div>

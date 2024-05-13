@@ -7,15 +7,51 @@
     <style>
       @import "styles/base_style.css";
       @import "styles/style.css";
+      @import "styles/timeline.css";
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/data_box.js"></script>
   </head>
   <body>
     <div class="contents">
-      <h2>About Me</h2>
-      <p>In porta convallis turpis ac aliquet. Nulla facilisi. In aliquet rutrum aliquam. Sed vehicula luctus lectus at tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut condimentum erat, dictum ornare urna. Aliquam lacinia, orci aliquet congue venenatis, quam erat mollis ex, nec efficitur nulla diam ut nisl.
-      </p><p>
-      Praesent euismod diam at turpis tristique, et maximus tellus pellentesque. Sed suscipit, augue id pulvinar scelerisque, mi velit consectetur quam, vel lacinia metus nisi eu tellus. Nullam et sodales quam. Phasellus vitae arcu facilisis, molestie risus sed, semper neque. Phasellus at risus eu libero finibus varius. Fusce lobortis magna ut molestie mollis. Mauris varius dictum sem, consequat placerat nisi pellentesque faucibus. Sed pretium, justo eu feugiat rhoncus, nunc massa gravida ex, in faucibus tellus urna at nunc. Donec feugiat consequat enim, non suscipit erat dictum a. Aenean vulputate tortor in pulvinar finibus.</p>
-      <button title="hi" class="circ-button">Subscribe</button>
+      <div class="panel">
+        <div class="panel-child panel-child-mov outlined-box" style="background-color: bisque; height: 200px;">
+          <h2 id="aboutme_title" class="light-title"></h2>
+          <p id="aboutme_desc"></p>
+          <script>box_load(_desc_box_path, 'aboutme', 'aboutme_title', 'aboutme_desc');</script>
+        </div>
+      </div>
+      <div class="panel-child-mov">
+      <h2 class="timeline-header">Education</h2></div>
+      <ul class="timeline">
+        <li style="--accent-color:#E24A68">
+          <div class="date">Sep 2021 - Expected Aug 2025</div>
+          <div class="title">Bachelor of Engineering (B.Eng.),&nbsp;Artificial Intelligence: Systems & Technologies (AISTN)</div>
+          <div class="subtitle">THE CHINESE UNIVERSITY OF HONG KONG, Shatin, Hong Kong</div>
+          <div class="descr">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima consequuntur soluta placeat iure totam commodi repellendus ea delectus, libero fugit quod reprehenderit, sequi quo, et dolorum saepe nulla hic.
+          </div>
+        </li>
+        <li style="--accent-color:#41516C">
+          <div class="date">Sep 2015 - Aug 2021</div>
+          <div class="title">Hong Kong Diploma of Secondary Education</div>
+          <div class="subtitle">BISHOP HALL JUBILEE SCHOOL, Kowloon Tong, Hong Kong</div>
+          <div class="descr">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima consequuntur soluta placeat iure totam commodi repellendus ea delectus, libero fugit quod reprehenderit, sequi quo, et dolorum saepe nulla hic.
+          </div>
+        </li>
+      </ul>
+      <div class="panel">
+        <div class="panel-child">
+          <div class="panel-child-mov">
+            <h2 id="projects_title" class="light-title"></h2>
+            <p id="projects_desc"></p>
+            <script>box_load(_desc_box_path, 'projects', 'projects_title', 'projects_desc');</script>
+          </div>
+          <button class="circ-button" style="float: right;" onclick="parent.location.href='./index.html#projects'">Learn More <i class="fa fa-angle-double-right" style="font-size: medium;"></i></button>
+        </div>
+        <div class="panel-child panel-child-mov" style="background-color: aquamarine; height: 200px;"></div>
+      </div>
     </div>
   </body>
 </html>

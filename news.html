@@ -8,9 +8,17 @@
       @import "styles/base_style.css";
       @import "styles/style.css";
     </style>
+    <script src="scripts/data_box.js"></script>
   </head>
   <body>
     <div class="contents">
+      <div class="panel">
+        <div class="panel-child panel-child-mov outlined-box" style="background-color: pink; height: 200px;">
+          <h2 id="news_title" class="light-title"></h2>
+          <p id="news_desc"></p>
+          <script>box_load(_desc_box_path, 'news', 'news_title', 'news_desc');</script>
+        </div>
+      </div>
       <h2>News</h2>
       <p>Curabitur a aliquet quam. Vivamus ullamcorper turpis quis congue dictum. Aliquam semper auctor euismod. Ut facilisis pharetra risus at faucibus. Integer suscipit varius ornare. Vivamus at lobortis nulla. Ut et posuere ex. Suspendisse elementum, orci quis vestibulum feugiat, augue lacus ultricies elit, nec posuere nisi lacus vitae dolor. Nulla varius tempus ipsum, lobortis blandit dui elementum vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       </p><p>

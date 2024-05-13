@@ -1,0 +1,14 @@
+{
+    "aboutme": {
+        "title": "About Me",
+        "content": "Hardworking and passionate third-year student majoring in Artificial Intelligence, targeting an internship role in Artificial Intelligence Engineer or Software Engineer, eagar to apply knowledge in machine learning and deep learning to drive innovative and practical solutions to real life problems."
+    },
+    "projects": {
+        "title": "Projects",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id imperdiet nisi. Aenean neque nulla, accumsan eu magna at, sodales lobortis nunc. Nulla molestie enim in bibendum maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+    },
+    "news": {
+        "title": "What am I doing lately...",
+        "content": "Vestibulum et egestas sapien, nec congue lacus. Sed nec condimentum erat. Sed luctus lacus mi, eget vehicula sem vehicula at. Sed tortor leo, porta ut quam eget, euismod congue tortor. Phasellus egestas et lacus ut aliquet. Donec porttitor ultrices nisl at sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    }
+}
