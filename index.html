@@ -14,6 +14,14 @@
       function hashChanged(hash) {
         var frame = document.getElementById("header");
         window.frames['header'].location.replace("./header.html?page="+hash.split("#")[1]);
+
+        if (hash == '#projects') {
+          var arg = location.href.split('#')[0].split('?')[1];
+          if (arg !== undefined) {
+            arg = unescape(arg);
+            window.frames['_projects'].location.replace("./projects.html?"+arg);
+          }
+        }
       }
 
       if (window.location.hash == '')
@@ -46,7 +54,7 @@
         <iframe src="./aboutme.html" class="main-content"></iframe>
       </section>
       <section id="projects">
-        <iframe src="./projects.html" class="main-content"></iframe>
+        <iframe name="_projects" src="./projects.html" class="main-content"></iframe>
       </section>
       <section id="news">
         <iframe src="./news.html" class="main-content"></iframe>

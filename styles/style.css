@@ -119,11 +119,13 @@ section {
     background-color: var(--circ-btn-active-color);
 }
 
-pa {
+a.pa {
     cursor: pointer;
+    color: black;
+    text-decoration: none;
 }
 
-pa:hover {
+a.pa:hover {
     color: var(--link-active-textcolor);
 }
 

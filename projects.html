@@ -11,6 +11,15 @@
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="scripts/data_box.js"></script>
+    <script>
+      var arg = location.href.split('#')[0].split('?')[1];
+      if (arg !== undefined) {
+        arg = [unescape(arg.split("filter=")[1])];
+      }
+      if (arg === undefined) {
+        arg = null;
+      }
+    </script>
   </head>
   <body>
     <div class="contents">
@@ -24,7 +33,7 @@
       <div class="panel-child-mov">
       <h2 class="timeline-header">Projects</h2></div>
       <ul id="project_timeline" class="timeline">
-        <script>timeline_load(_project_path, "project_timeline", ["AI/ML", "General"])</script>
+        <script>timeline_load(_project_path, "project_timeline", arg)</script>
         <li></li>
       </ul>
       <div class="panel">

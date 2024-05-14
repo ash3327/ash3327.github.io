@@ -2,7 +2,8 @@
     {
         "date": "Mar 2024",
         "title": "Protein Sequence Classification Kaggle Competition",
-        "subtitle": "THE CHINESE UNIVERSITY OF HONG KONG: Course Assignment",
+        "source": "THE CHINESE UNIVERSITY OF HONG KONG",
+        "subtitle": "Course Assignment",
         "tags": ["AI/ML"],
         "descr": 
             [
@@ -29,7 +30,8 @@
     {
         "date": "Oct - Dec 2022",
         "title": "Deep Q-Learning Shooter Game Project “SnowFight”",
-        "subtitle": "THE CHINESE UNIVERSITY OF HONG KONG: Course Assignment",
+        "source": "THE CHINESE UNIVERSITY OF HONG KONG",
+        "subtitle": "Course Assignment",
         "tags": ["AI/ML"],
         "descr": 
             [
@@ -38,7 +40,10 @@
                 "<li>Implemented a simple Deep-Q Network with PyTorch to train agents to master at the game</li>",
                 "<li>Fine-tuned the hyperparameters of the agent, achieving average kill streak of 30x and lengthend the survival duration by 4 times from the random baseline.</li>",
                 "</ul>"
-            ]
+            ],
+        "links": {
+            "GitHub": {"link": "https://github.com/ash3327/SnowFight", "icon":"fa fa-github"}
+        }
     },
     {
         "date": "Mar 2023 - Ongoing",
@@ -52,6 +57,10 @@
                 "<li>Migrated the data storage and retrieval to the more robust RoomDatabase</li>",
                 "<li>Refactored codebase into distinct UI layers and business logic components</li>",
                 "</ul>"
-            ]
+            ],
+        "links": {
+            "GitHub": {"link": "https://github.com/ash3327/OasisPlanner", "icon": "fa fa-github"},
+            "ReadMe": {"link": "https://github.com/ash3327/OasisPlanner/blob/development/README.md", "icon": "fa fa-info-circle"}
+        }
     }
 ]
