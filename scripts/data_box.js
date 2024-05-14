@@ -50,7 +50,7 @@ function _add_timeline_box(element, container, i, require_tags) {
         Object.keys(element.links).forEach(key => {
             const linkButton = document.createElement("a");
             linkButton.classList.add("pa");
-            linkButton.target = "_parent";
+            linkButton.target = "_blank";
             linkButton.href = element.links[key].link;
             linkButton.innerHTML = "<i class='"+element.links[key].icon+"' style='font-size:18px'></i> "+key+"&nbsp;&nbsp;&nbsp;";
             linkPanel.appendChild(linkButton);

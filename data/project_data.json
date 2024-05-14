@@ -1,51 +1,5 @@
 [
     {
-        "date": "Mar 2024",
-        "title": "Protein Sequence Classification Kaggle Competition",
-        "source": "THE CHINESE UNIVERSITY OF HONG KONG",
-        "subtitle": "Course Assignment",
-        "tags": ["AI/ML"],
-        "descr": 
-            [
-                "<ul>",
-                "<li>Applied pretrained ProtTrans transformer model and trained a fully-connected classifier head in Python</li>",
-                "<li>Achieved 98.438% accuracy on public leaderboard and 94.161% accuracy on private leaderboard</li>",
-                "</ul>"
-            ]
-    },
-    {
-        "date": "Aug 2023",
-        "title": "Image Segmentation Project",
-        "subtitle": "Self Project",
-        "tags": ["AI/ML"],
-        "descr": 
-            [
-                "<ul>",
-                "<li>Trained a U-Net model for semantic segmentation from scratch on the Cityscape dataset and Carvana dataset</li>",
-                "<li>Applied pre-trained YOLO-v5 model for real-time tracking of cars</li>",
-                "<li>Self-implemented an instance label assigning function based on maximum overlap to stablize the labelled id on each car moving across frames.</li>",
-                "</ul>"
-            ]
-    },
-    {
-        "date": "Oct - Dec 2022",
-        "title": "Deep Q-Learning Shooter Game Project “SnowFight”",
-        "source": "THE CHINESE UNIVERSITY OF HONG KONG",
-        "subtitle": "Course Assignment",
-        "tags": ["AI/ML"],
-        "descr": 
-            [
-                "<ul>",
-                "<li>Created a Gym environment of a simple third-person shooter game in Python Led the project and planned an efficient work schedule, while collaborating closely with groupmate throughout the development</li>",
-                "<li>Implemented a simple Deep-Q Network with PyTorch to train agents to master at the game</li>",
-                "<li>Fine-tuned the hyperparameters of the agent, achieving average kill streak of 30x and lengthend the survival duration by 4 times from the random baseline.</li>",
-                "</ul>"
-            ],
-        "links": {
-            "GitHub": {"link": "https://github.com/ash3327/SnowFight", "icon":"fa fa-github"}
-        }
-    },
-    {
         "date": "Mar 2023 - Ongoing",
         "title": "Calendar App Project “Oasis”",
         "subtitle": "Self Project",
@@ -61,6 +15,158 @@
         "links": {
             "GitHub": {"link": "https://github.com/ash3327/OasisPlanner", "icon": "fa fa-github"},
             "ReadMe": {"link": "https://github.com/ash3327/OasisPlanner/blob/development/README.md", "icon": "fa fa-info-circle"}
+        }
+    },
+    {
+        "date": "Jan - Apr 2024",
+        "title": "Peer-to-Peer Communication App",
+        "source": "THE CHINESE UNIVERSITY OF HONG KONG",
+        "subtitle": "Course Project",
+        "tags": ["Software Development", "Python"],
+        "descr": 
+            [
+                "<ul>",
+                "<li>Collaborated with 2 groupmates on the 2-stage Python project</li>",
+                "<li>Implemented user interface, audio recording and other functions.</li>",
+                "<li>Implemented synchronization mechanism for audio and video packets sent through sockets to minimize effects of lag and delay on user experience.</li>",
+                "</ul>"
+            ]
+    },
+    {
+        "date": "Mar 2024",
+        "title": "Protein Sequence Classification Kaggle Competition",
+        "source": "THE CHINESE UNIVERSITY OF HONG KONG",
+        "subtitle": "Course Assignment",
+        "tags": ["AI/ML", "Python", "PyTorch"],
+        "descr": 
+            [
+                "<ul>",
+                "<li>Applied pretrained ProtTrans transformer model and trained a fully-connected classifier head in Python</li>",
+                "<li>Achieved 98.438% accuracy on public leaderboard and 94.161% accuracy on private leaderboard</li>",
+                "</ul>"
+            ],
+        "links": {
+            "Competition": {"link": "https://www.kaggle.com/competitions/aist4010-spring2024-a2", "icon": "fa fa-link"}
+        }
+    },
+    {
+        "date": "Oct - Dec 2022",
+        "title": "Deep Q-Learning Shooter Game Project “SnowFight”",
+        "source": "THE CHINESE UNIVERSITY OF HONG KONG",
+        "subtitle": "Course Assignment",
+        "tags": ["AI/ML", "RL", "Python", "Keras", "Tensorflow"],
+        "descr": 
+            [
+                "<ul>",
+                "<li>Created a Gym environment of a simple third-person shooter game in Python Led the project and planned an efficient work schedule, while collaborating closely with groupmate throughout the development</li>",
+                "<li>Implemented a simple Deep-Q Network with PyTorch to train agents to master at the game</li>",
+                "<li>Fine-tuned the hyperparameters of the agent, achieving average kill streak of 30x and lengthend the survival duration by 4 times from the random baseline.</li>",
+                "</ul>"
+            ],
+        "links": {
+            "GitHub": {"link": "https://github.com/ash3327/SnowFight", "icon":"fa fa-github"}
+        }
+    },
+    {
+        "date": "Jun 2023",
+        "title": "Image Segmentation (YOLO-v5)",
+        "subtitle": "Self Project",
+        "tags": ["AI/ML", "Python", "CV2", "Library"],
+        "descr": 
+            [
+                "<ul>",
+                "<li>Applied the YOLO-v5 model for real-time tracking of cars.</li>",
+                "<li>Referred to an online tutorial while doing so.</li>",
+                "<li>Applied Abrewley's Sort Library and self-implemented instance label assigning function based on maximum overlap to stablize the labelled id on each car moving across frames.</li>",
+                "</ul>"
+            ],
+        "links": {
+            "GitHub": {"link": "https://github.com/ash3327/ObjectDetection-v1", "icon":"fa fa-github"}
+        }
+    },
+    {
+        "date": "Dec 2022 - Jan 2023",
+        "title": "Q-learning Project on the Game 2048",
+        "subtitle": "Self Project",
+        "tags": ["AI/ML", "RL", "Python", "Keras", "Tensorflow"],
+        "descr": 
+            [
+                "<ul>",
+                "<li>Created a Python environment of the game 2048</li>",
+                "<li>Implemented a simple Deep-Q Network with PyTorch and trained agent to consistently achieve the 512 tile, a challenging milestone for new players</li>",
+                "<li>Performance is not very good</li>",
+                "</ul>"
+            ],
+        "links": {
+            "GitHub": {"link": "https://github.com/ash3327/2048-QLearning-v1", "icon":"fa fa-github"}
+        }
+    },
+    {
+        "date": "Aug 2022, reworked on Aug 2023",
+        "title": "Image Segmentation (U-Net)",
+        "subtitle": "Self Project",
+        "tags": ["AI/ML", "Python", "PyTorch"],
+        "descr": 
+            [
+                "<ul>",
+                "<li>Trained a U-Net model for semantic segmentation from scratch on the Cityscape dataset and Carvana dataset.</li>",
+                "<li>Test Pixel Accuracy of 0.9955 and dice score of 0.9911 for Carvana dataset.</li>",
+                "<li>Test Pixel Accuracy of 0.8669 for Cityscape dataset.</li>",
+                "</ul>"
+            ],
+        "links": {
+            "GitHub": {"link": "https://github.com/ash3327/ImageSegmentation-UNet", "icon":"fa fa-github"}
+        }
+    },
+    {
+        "date": "Aug 2022",
+        "title": "Image Generation (GANs)",
+        "subtitle": "Self Project",
+        "tags": ["AI/ML", "Python", "PyTorch"],
+        "descr": 
+            [
+                "<ul>",
+                "<li>Self-learn various GAN architectures from vanilla GAN, conditional GAN to WGAN.</li>",
+                "</ul>"
+            ],
+        "links": {
+            "GitHub": {"link": "https://github.com/ash3327/GAN-self-learn-v1", "icon":"fa fa-github"}
+        }
+    },
+    {
+        "date": "Aug 2021, reworked on Jan 2022",
+        "title": "Automatic Clicker “RegSubjer”",
+        "subtitle": "Self Project",
+        "tags": ["Java", "API", "Software Development"],
+        "descr": 
+            [
+                "<ul>",
+                "<li>Helps students register their courses (especially those in CUHK) efficiently.</li>",
+                "<li>Users can set a fixed time when the required mouse click is enforced.</li>",
+                "<li>Time synchronized with HKO clock.</li>",
+                "<li>Author has been using this application to register his courses for 6 times, involving a robotics course that only has 3 vacancies, and has not failed in getting a position in the course.</li>",
+                "<li>After frame-by-frame inspection on recorded video on the demonstration, we found that the time delay between actual time and the click time is no larger than 1.5 frames, that is, around 50 ms, which is faster than human response which is typically around 200-300 ms.</li>",
+                "</ul>"
+            ],
+        "links": {
+            "GitHub": {"link": "https://github.com/ash3327/RegSubjer", "icon":"fa fa-github"}
+        }
+    },
+    {
+        "date": "Jan 2020 - Nov 2021",
+        "title": "Archaic RPG game",
+        "subtitle": "Self Project",
+        "tags": ["Java", "Software Development"],
+        "descr": 
+            [
+                "<ul>",
+                "<li>Consists of two parts - a MapCreater and a GamePlayer</li>",
+                "<li>Users can customize the map, even allowing customized interaction with NPCs through a custom code editor.</li>",
+                "<li>Abandoned due to lack of ideas in how to write the storyline.</li>",
+                "</ul>"
+            ],
+        "links": {
+            "GitHub": {"link": "https://github.com/ash3327/ArchaicBitmapGame", "icon":"fa fa-github"}
         }
     }
 ]
