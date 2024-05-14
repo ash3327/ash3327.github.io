@@ -80,7 +80,6 @@ Reference: https://codepen.io/MarkBoots/pen/OJOqNyB
 /* title */
 .timeline li .title {
   --titleH: 3rem;
-  height: var(--titleH);
   margin-inline: calc(var(--inlineP) * -1);
 
   text-align: center;
@@ -90,8 +89,9 @@ Reference: https://codepen.io/MarkBoots/pen/OJOqNyB
   font-size: 1rem;
   font-weight: 700;
 
-  display: grid;
-  place-content: center;
+  display: block;
+  padding-top: calc(var(--titleH) * .3);
+  padding-bottom: calc(var(--titleH) * .3);
   position: relative;
 
   border-radius: calc(var(--titleH) / 2) 0 0 calc(var(--titleH) / 2);

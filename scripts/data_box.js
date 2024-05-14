@@ -18,6 +18,7 @@ function box_load(path, root_name, title_view_name, desc_view_name) {
 function _add_timeline_box(element, container, i, require_tags) {
     if (require_tags != null && !element.tags.some((tag)=>require_tags.includes(tag)) && !require_tags.includes(element.source))
         return false;
+    
     const node = document.createElement("li");
     node.classList.add("timeline-element")
     node.style.setProperty("--accent-color", _colors[i]);
@@ -29,12 +30,14 @@ function _add_timeline_box(element, container, i, require_tags) {
 
     const titlePanel = document.createElement("div");
     titlePanel.classList.add("title");
-    titlePanel.appendChild(document.createTextNode(element.title))
+    var icon_text = element.icon !== undefined ? "<i class='"+element.icon+"' style='font-size:18px'></i>&nbsp;&nbsp;" : '';
+    titlePanel.innerHTML = icon_text+element.title;
     node.appendChild(titlePanel);
 
     const subtitlePanel = document.createElement("div");
     subtitlePanel.classList.add("subtitle");
-    subtitlePanel.appendChild(document.createTextNode((element.source!==undefined?element.source+": ":"")+element.subtitle))
+    var subtitle = [element.source, element.subtitle].filter(item=>!!item).join(": ");
+    subtitlePanel.appendChild(document.createTextNode(subtitle));
     node.appendChild(subtitlePanel);
 
     const descrPanel = document.createElement("div");
@@ -87,8 +90,11 @@ function timeline_load(path, root_view_name, require_tags=null) {
     fetch(path)
         .then(response=>response.json())
         .then(json => {
+            var req_tags = require_tags;
+            if (req_tags == null && root_view_name == 'project_timeline')
+                req_tags = ['Project'];
             json.forEach(element => {
-                if (_add_timeline_box(element, container, i, require_tags)) {
+                if (_add_timeline_box(element, container, i, req_tags)) {
                     i ++;
                     i %= _colors.length;
                 }

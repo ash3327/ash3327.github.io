@@ -3,7 +3,7 @@
         "date": "Mar 2023 - Ongoing",
         "title": "Calendar App Project “Oasis”",
         "subtitle": "Self Project",
-        "tags": ["General", "Ongoing"],
+        "tags": ["Project", "General", "Ongoing"],
         "descr": 
             [
                 "<ul>",
@@ -22,7 +22,7 @@
         "title": "Peer-to-Peer Communication App",
         "source": "THE CHINESE UNIVERSITY OF HONG KONG",
         "subtitle": "Course Project",
-        "tags": ["Software Development", "Python"],
+        "tags": ["Project", "Software Development", "Python"],
         "descr": 
             [
                 "<ul>",
@@ -37,7 +37,7 @@
         "title": "Protein Sequence Classification Kaggle Competition",
         "source": "THE CHINESE UNIVERSITY OF HONG KONG",
         "subtitle": "Course Assignment",
-        "tags": ["AI/ML", "Python", "PyTorch"],
+        "tags": ["Project", "AI/ML", "Python", "PyTorch"],
         "descr": 
             [
                 "<ul>",
@@ -50,28 +50,18 @@
         }
     },
     {
-        "date": "Oct - Dec 2022",
-        "title": "Deep Q-Learning Shooter Game Project “SnowFight”",
+        "date": "2022 - 2023",
+        "title": "Dean's List",
         "source": "THE CHINESE UNIVERSITY OF HONG KONG",
-        "subtitle": "Course Assignment",
-        "tags": ["AI/ML", "RL", "Python", "Keras", "Tensorflow"],
-        "descr": 
-            [
-                "<ul>",
-                "<li>Created a Gym environment of a simple third-person shooter game in Python Led the project and planned an efficient work schedule, while collaborating closely with groupmate throughout the development</li>",
-                "<li>Implemented a simple Deep-Q Network with PyTorch to train agents to master at the game</li>",
-                "<li>Fine-tuned the hyperparameters of the agent, achieving average kill streak of 30x and lengthend the survival duration by 4 times from the random baseline.</li>",
-                "</ul>"
-            ],
-        "links": {
-            "GitHub": {"link": "https://github.com/ash3327/SnowFight", "icon":"fa fa-github"}
-        }
+        "tags": ["Award"],
+        "descr": [],
+        "icon":"fa fa-trophy"
     },
     {
         "date": "Jun 2023",
         "title": "Image Segmentation (YOLO-v5)",
         "subtitle": "Self Project",
-        "tags": ["AI/ML", "Python", "CV2", "Library"],
+        "tags": ["Project", "AI/ML", "Python", "CV2", "Library"],
         "descr": 
             [
                 "<ul>",
@@ -88,7 +78,7 @@
         "date": "Dec 2022 - Jan 2023",
         "title": "Q-learning Project on the Game 2048",
         "subtitle": "Self Project",
-        "tags": ["AI/ML", "RL", "Python", "Keras", "Tensorflow"],
+        "tags": ["Project", "AI/ML", "RL", "Python", "Keras", "Tensorflow"],
         "descr": 
             [
                 "<ul>",
@@ -102,10 +92,28 @@
         }
     },
     {
+        "date": "Oct - Dec 2022",
+        "title": "Deep Q-Learning Shooter Game Project “SnowFight”",
+        "source": "THE CHINESE UNIVERSITY OF HONG KONG",
+        "subtitle": "Course Assignment",
+        "tags": ["Project", "AI/ML", "RL", "Python", "Keras", "Tensorflow"],
+        "descr": 
+            [
+                "<ul>",
+                "<li>Created a Gym environment of a simple third-person shooter game in Python Led the project and planned an efficient work schedule, while collaborating closely with groupmate throughout the development</li>",
+                "<li>Implemented a simple Deep-Q Network with PyTorch to train agents to master at the game</li>",
+                "<li>Fine-tuned the hyperparameters of the agent, achieving average kill streak of 30x and lengthend the survival duration by 4 times from the random baseline.</li>",
+                "</ul>"
+            ],
+        "links": {
+            "GitHub": {"link": "https://github.com/ash3327/SnowFight", "icon":"fa fa-github"}
+        }
+    },
+    {
         "date": "Aug 2022, reworked on Aug 2023",
         "title": "Image Segmentation (U-Net)",
         "subtitle": "Self Project",
-        "tags": ["AI/ML", "Python", "PyTorch"],
+        "tags": ["Project", "AI/ML", "Python", "PyTorch"],
         "descr": 
             [
                 "<ul>",
@@ -122,7 +130,7 @@
         "date": "Aug 2022",
         "title": "Image Generation (GANs)",
         "subtitle": "Self Project",
-        "tags": ["AI/ML", "Python", "PyTorch"],
+        "tags": ["Project", "AI/ML", "Python", "PyTorch"],
         "descr": 
             [
                 "<ul>",
@@ -134,10 +142,26 @@
         }
     },
     {
+        "date": "2021 - 2022",
+        "title": "Dean's List",
+        "source": "THE CHINESE UNIVERSITY OF HONG KONG",
+        "tags": ["Award"],
+        "descr": [],
+        "icon":"fa fa-trophy"
+    },
+    {
+        "date": "2021 - 2022",
+        "title": "College Head's List",
+        "source": "THE CHINESE UNIVERSITY OF HONG KONG",
+        "tags": ["Award"],
+        "descr": [],
+        "icon":"fa fa-trophy"
+    },
+    {
         "date": "Aug 2021, reworked on Jan 2022",
         "title": "Automatic Clicker “RegSubjer”",
         "subtitle": "Self Project",
-        "tags": ["Java", "API", "Software Development"],
+        "tags": ["Project", "Java", "API", "Software Development"],
         "descr": 
             [
                 "<ul>",
@@ -156,7 +180,7 @@
         "date": "Jan 2020 - Nov 2021",
         "title": "Archaic RPG game",
         "subtitle": "Self Project",
-        "tags": ["Java", "Software Development"],
+        "tags": ["Project", "Java", "Software Development"],
         "descr": 
             [
                 "<ul>",
