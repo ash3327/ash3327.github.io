@@ -15,10 +15,13 @@ function box_load(path, root_name, title_view_name, desc_view_name) {
         });
 }
 
-function _add_timeline_box(element, container, i, require_tags) {
+function _add_timeline_box(element, container, i, require_tags, mode) {
     if (require_tags != null && !element.tags.some((tag)=>require_tags.includes(tag)) && !require_tags.includes(element.source))
         return false;
     
+    if (mode !== null)
+        return _add_list_box(element, container, i, require_tags);
+
     const node = document.createElement("li");
     node.classList.add("timeline-element")
     node.style.setProperty("--accent-color", _colors[i]);
@@ -84,7 +87,76 @@ function _add_timeline_box(element, container, i, require_tags) {
     return true;
 }
 
-function timeline_load(path, root_view_name, require_tags=null) {
+function _add_list_box(element, container, i, require_tags) {
+    container.classList = ['timeline-2'];
+
+    const node = document.createElement("li");
+    node.classList.add("timeline-element")
+    node.style.setProperty("--accent-color", _colors[i]);
+
+    const datePanel = document.createElement("div");
+    datePanel.classList.add("date");
+    datePanel.appendChild(document.createTextNode(element.date))
+    node.appendChild(datePanel);
+
+    const titlePanel = document.createElement("div");
+    titlePanel.classList.add("title");
+    var icon_text = element.icon !== undefined ? "<i class='"+element.icon+"' style='font-size:18px'></i>&nbsp;&nbsp;" : '';
+    titlePanel.innerHTML = icon_text+element.title;
+    node.appendChild(titlePanel);
+
+    const subtitlePanel = document.createElement("div");
+    subtitlePanel.classList.add("subtitle");
+    var subtitle = [element.source, element.subtitle].filter(item=>!!item).join(": ");
+    subtitlePanel.appendChild(document.createTextNode(subtitle));
+    node.appendChild(subtitlePanel);
+
+    const descrPanel = document.createElement("div");
+    descrPanel.classList.add("descr");
+    descrPanel.innerHTML = element["descr"].join('');
+
+    // GitHub and ReadMe links
+    if (element.links !== undefined) {
+        const linkPanel = document.createElement("p");
+        linkPanel.style.textAlign = "right";
+        linkPanel.style.paddingTop = "10px";
+
+        Object.keys(element.links).forEach(key => {
+            const linkButton = document.createElement("a");
+            linkButton.classList.add("pa");
+            linkButton.target = "_blank";
+            linkButton.href = element.links[key].link;
+            linkButton.innerHTML = "<i class='"+element.links[key].icon+"' style='font-size:18px'></i> "+key+"&nbsp;&nbsp;&nbsp;";
+            linkPanel.appendChild(linkButton);
+        });
+
+        descrPanel.appendChild(linkPanel);
+    }
+
+    // Link to Project page with filter
+    if (element.link !== undefined) {
+        const is_project = element.link == '#projects';
+        const button = document.createElement("button");
+        button.classList.add("circ-button");
+        button.style.setProperty("float", "right");
+        button.innerHTML = (is_project ? "See All Projects" : "Learn More")+" <i class=\"fa fa-angle-double-right\" style=\"font-size: medium;\">";
+        button.style.marginTop = "5px";
+        button.onclick = ()=>{
+            const link_text = is_project ? '' : '?filter='+element.link;
+            parent.location.href='./index.html'+link_text+'#projects';
+        }
+        descrPanel.appendChild(button);
+        
+        descrPanel.style.paddingBottom = "50px";
+    }
+
+    node.appendChild(descrPanel);
+    container.appendChild(node);
+    return true;
+}
+
+function timeline_load(path, root_view_name, require_tags=null, mode=null) {
+    console.log(require_tags, mode);
     var container = document.getElementById(root_view_name);
     var i = 0;
     fetch(path)
@@ -94,7 +166,7 @@ function timeline_load(path, root_view_name, require_tags=null) {
             if (req_tags == null && root_view_name == 'project_timeline')
                 req_tags = ['Project'];
             json.forEach(element => {
-                if (_add_timeline_box(element, container, i, req_tags)) {
+                if (_add_timeline_box(element, container, i, req_tags, mode)) {
                     i ++;
                     i %= _colors.length;
                 }
@@ -109,7 +181,7 @@ function timeline_load(path, root_view_name, require_tags=null) {
                     "descr": [],
                     "link": "#projects"
                 };
-                _add_timeline_box(elem, container, i, null);
+                _add_timeline_box(elem, container, i, null, mode);
             }
         });    
 }

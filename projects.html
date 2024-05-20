@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="scripts/data_box.js"></script>
     <script>
-      var arg = location.href.split('#')[0].split('?')[1];
-      if (arg !== undefined) {
-        arg = [unescape(arg.split("filter=")[1])];
-      }
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString.substring(1));
+      var arg = urlParams.get('filter');
       if (arg === undefined) {
         arg = null;
       }
+      var mode = urlParams.get('mode');
     </script>
   </head>
   <body>
@@ -33,9 +33,17 @@
       <div class="panel-child-mov">
       <h2 class="timeline-header">Projects</h2></div>
       <ul id="project_timeline" class="timeline">
-        <script>timeline_load(_project_path, "project_timeline", arg)</script>
+        <script>timeline_load(_project_path, "project_timeline", arg, mode)</script>
         <li></li>
       </ul>
+      <!-- <div style="position: fixed; bottom: 5%; width: 100%; text-align: center;">
+        <button id="toggle_button" class="circ-button"
+       onclick="urlParams.has('mode') ? urlParams.delete('mode') : urlParams.append('mode', 'list'); parent.location.href='./index.html?'+urlParams.toString()+'#projects'">
+          <script>
+            document.getElementById("toggle_button").innerHTML = 'Switch To ' + (urlParams.has('mode') ? 'Timeline Mode' : 'List Mode');
+          </script>
+        </button>
+      </div> -->
       <div class="panel">
         <div class="panel-child panel-child-mov" style="background-color: pink; height: 200px;"></div>
         <div class="panel-child">

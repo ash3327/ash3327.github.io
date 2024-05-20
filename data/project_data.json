@@ -55,7 +55,10 @@
         "source": "THE CHINESE UNIVERSITY OF HONG KONG",
         "tags": ["Award"],
         "descr": [],
-        "icon":"fa fa-trophy"
+        "icon":"fa fa-trophy",
+        "links": {
+            "Certificate": {"link": "./archive/deansListVerification.pdf#page=2", "icon":"fa fa-link"}
+        }
     },
     {
         "date": "Jun 2023",
@@ -147,7 +150,10 @@
         "source": "THE CHINESE UNIVERSITY OF HONG KONG",
         "tags": ["Award"],
         "descr": [],
-        "icon":"fa fa-trophy"
+        "icon":"fa fa-trophy",
+        "links": {
+            "Certificate": {"link": "./archive/deansListVerification.pdf#page=1", "icon":"fa fa-link"}
+        }
     },
     {
         "date": "2021 - 2022",

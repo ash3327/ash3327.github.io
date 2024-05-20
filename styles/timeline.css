@@ -197,3 +197,14 @@ Reference: https://codepen.io/MarkBoots/pen/OJOqNyB
     border-radius: 0 calc(var(--titleH) / 2) calc(var(--titleH) / 2) 0;
   }
 }
+
+/* TIMELINE LIST MODE */
+.timeline-2 li.timeline-element {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.timeline-2 .pa {
+  margin: 0;
+  float: left;
+}
