@@ -1,6 +1,22 @@
 [
     {
-        "date": "Mar 2023 - Ongoing",
+        "date": "May 2024 - Ongoing",
+        "title": "Image Generation (GANs, Diffusion)",
+        "subtitle": "Self Project",
+        "tags": ["Ongoing", "Project", "AI/ML", "Python", "PyTorch"],
+        "descr": 
+            [
+                "<ul>",
+                "<li>Self-learn various GAN architectures and try to implement Diffusion model.</li>",
+                "<li>Aims to rewrite the project done in previous year in well-structured code.</li>",
+                "</ul>"
+            ],
+        "links": {
+            "GitHub (Still in Private)": {"link": "https://github.com/ash3327/project_diffusion", "icon":"fa fa-github"}
+        }
+    },
+    {
+        "date": "Mar 2023 - Temporarily Halted",
         "title": "Calendar App Project “Oasis”",
         "subtitle": "Self Project",
         "tags": ["Project", "General", "Ongoing"],
