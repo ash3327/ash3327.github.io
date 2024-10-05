@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "name": "AI-Powered Recommendation Engine",
+            "description": "Developed a scalable recommendation system using collaborative filtering and deep learning techniques. Implemented with Python, TensorFlow, and deployed on AWS.",
+            "image": "perfume.jpg",
+            "github": "https://github.com/yourusername/recommendation-engine"
+        },
+        {
+            "name": "Distributed Data Processing Pipeline",
+            "description": "Built a high-throughput data processing system using Apache Kafka for real-time streaming and Apache Spark for batch processing. Deployed on a Kubernetes cluster.",
+            "image": "logo.svg", 
+            "github": "https://github.com/yourusername/data-pipeline"
+        },
+        {
+            "name": "Natural Language Processing API",
+            "description": "Created a RESTful API for sentiment analysis and entity recognition using spaCy and Flask. Containerized with Docker and deployed on Google Cloud Run.",
+            "image": "logo.svg",
+            "github": "https://github.com/yourusername/nlp-api"
+        },
+        {
+            "name": "Blockchain-based Supply Chain Tracker",
+            "description": "Implemented a decentralized application (DApp) for supply chain management using Ethereum smart contracts and React.js for the frontend.",
+            "image": "perfume.jpg",
+            "github": "https://github.com/yourusername/supply-chain-dapp"
+        }
+    ]
+}

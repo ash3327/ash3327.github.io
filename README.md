@@ -7,9 +7,20 @@ References:
 
 ## Dependencies
 
+<!-- NextJS:
+```bash
+npm install next react react-dom
+``` -->
+
+Tailwind:
 ```bash
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+```
+
+Material UI:
+```bash
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
 ```
 
 ## Local Deployment

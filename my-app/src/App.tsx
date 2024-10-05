@@ -1,26 +1,20 @@
 import React from 'react';
 import logo from './images/logo.svg';
 import './App.css';
-import PerfumeSlideshow from './components/PerfumeSlideshow';
+import MainSlideshow from './pages/MainSlideshow';
+import MenuBar from './pages/MenuBar'
+import About from './pages/About'
+import ProjectShowcase from './pages/ProjectShowcase';
+import Footer from './pages/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <PerfumeSlideshow />
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+    <div className="App h-screen">
+      <MenuBar />
+      <MainSlideshow />
+      <About />
+      <ProjectShowcase/>
+      <Footer/>
     </div>
   );
 }
