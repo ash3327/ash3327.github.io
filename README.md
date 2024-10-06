@@ -11,6 +11,10 @@ References:
 ```bash
 npm install next react react-dom
 ``` -->
+React Router:
+```bash
+npm install react-router-dom
+```
 
 Tailwind:
 ```bash
@@ -20,7 +24,7 @@ npx tailwindcss init -p
 
 Material UI:
 ```bash
-npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material @mui/lab
 ```
 
 ## Local Deployment

@@ -1,9 +1,9 @@
 import { Button } from "@mui/material"
 import { Card, CardContent, CardHeader, CardMedia, CardActions } from "@mui/material"
-import BlackButton from "../components/BlackButton";
+import BlackButton from "../../components/BlackButton";
 
 import React, { useEffect, useState } from 'react';
-import data from '../data/data.json';
+import data from "../../data/data.json";
 
 const ProjectShowcase: React.FC = () => {
   const [projects, setProjects] = useState<any[]>([]);
@@ -26,7 +26,7 @@ const ProjectShowcase: React.FC = () => {
               <CardMedia
                 component="img"
                 height="194"
-                image={require(`../images/${project.image}`)}
+                image={require(`../../images/${project.image}`)}
                 alt={project.name}
                 style={{ aspectRatio: 1.5 }} // Adjusted to maintain 1.5:1 aspect ratio
               />

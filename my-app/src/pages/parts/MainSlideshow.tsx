@@ -4,8 +4,8 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
-import perfume from '../images/perfume.jpg'; 
-import logo from '../images/logo.svg';
+import perfume from "../../images/perfume.jpg";
+import logo from "../../images/logo.svg";
 
 const slides = [
   {
@@ -42,7 +42,7 @@ export default function ProjectSlideshow() {
     }, [])
   
     return (
-      <div className="relative w-full h-1/2 overflow-hidden bg-gray-900 mt-16">
+      <section id="home" className="relative w-full half-height overflow-hidden bg-gray-900">
         <AnimatePresence initial={false}>
           <motion.div
             key={currentIndex}
@@ -106,6 +106,6 @@ export default function ProjectSlideshow() {
             />
           ))}
         </div>
-      </div>
+      </section>
     )
   }

@@ -1,12 +1,12 @@
 import { Button } from "@mui/material"
-import BlackButton from "../components/BlackButton"
+import BlackButton from "../../components/BlackButton"
 
-import ProfilePic from "../images/face 4.png"
+import ProfilePic from "../../images/face 4.png"
 
 export default function About() {
   return (
-    <section id="about" className="py-16 bg-white">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="about" className="bg-white">
+      <div className="py-16 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-extrabold text-gray-900 mb-8 text-center">About Me</h2>
         <div className="flex flex-col md:flex-row items-center gap-8">
           <img

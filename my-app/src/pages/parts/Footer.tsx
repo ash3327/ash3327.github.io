@@ -1,6 +1,6 @@
 import { Facebook, Instagram, Linkedin, Github, Mail, MapPin } from 'lucide-react'
 
-import { smoothScroll } from '../utils/smoothScroll';
+import { smoothScroll } from '../../utils/smoothScroll';
 
 export default function Footer() {
   return (

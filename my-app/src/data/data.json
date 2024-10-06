@@ -24,5 +24,45 @@
             "image": "perfume.jpg",
             "github": "https://github.com/yourusername/supply-chain-dapp"
         }
-    ]
+    ],
+    "experiences": [
+        {
+          "title": "Senior AI Engineer",
+          "company": "TechCorp Inc.",
+          "date": "2021 - Present",
+          "description": "Leading the development of advanced machine learning models for predictive analytics.",
+          "skills": ["Python", "TensorFlow", "PyTorch", "AWS"],
+          "type": "work"
+        },
+        {
+          "title": "Personal Project: AI-Powered Chess Engine",
+          "date": "2020 - 2021",
+          "description": "Developed a chess engine using deep reinforcement learning techniques.",
+          "skills": ["Python", "PyTorch", "Monte Carlo Tree Search"],
+          "type": "project"
+        },
+        {
+          "title": "Machine Learning Engineer",
+          "compnay": "DataDrive Solutions",
+          "date": "2018 - 2021",
+          "description": "Implemented and optimized machine learning pipelines for big data processing.",
+          "skills": ["Python", "Spark", "Kubernetes", "Google Cloud Platform"],
+          "type": "work"
+        },
+        {
+          "title": "Open Source Contribution: NLP Toolkit",
+          "date": "2017 - 2018",
+          "description": "Contributed to an open-source natural language processing toolkit, focusing on sentiment analysis modules.",
+          "skills": ["Python", "NLTK", "spaCy"],
+          "type": "project"
+        },
+        {
+          "title": "Data Scientist",
+          "compnay": "StartUp Analytics",
+          "date": "2016 - 2018",
+          "description": "Conducted data analysis and built predictive models for various client projects.",
+          "skills": ["Python", "R", "SQL", "Tableau"],
+          "type": "work"
+        }
+      ]
 }
