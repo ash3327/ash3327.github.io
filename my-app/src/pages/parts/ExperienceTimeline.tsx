@@ -1,6 +1,17 @@
 import { Card, CardContent, CardHeader } from "@mui/material"
 import { Chip } from "@mui/material"
 
+import {
+    Container,
+    Typography,
+    Paper,
+    Grid,
+    List,
+    ListItem,
+    ListItemText,
+    Divider
+} from '@mui/material';
+import { School, EmojiEvents, Grade } from '@mui/icons-material';
 import React, { useEffect, useState } from 'react';
 
 import data from "../../data/data.json";
@@ -9,12 +20,12 @@ const ExperienceTimeline: React.FC = () => {
     const [experiences, setExperiences] = useState<any[]>([]);
 
     useEffect(() => {
-    const fetchData = async () => {
-        setExperiences(data.experiences);
-        // console.log(experiences);
-    };
+        const fetchData = async () => {
+            setExperiences(data.experiences);
+            // console.log(experiences);
+        };
 
-    fetchData();
+        fetchData();
     }, []);
 
     return (
@@ -29,9 +40,9 @@ const ExperienceTimeline: React.FC = () => {
                                 <h1 className="mx-auto font-semibold text-lg text-white">{index + 1}</h1>
                             </div>
                             <Card className="order-1 w-5/6 px-6 py-4">
-                                <CardHeader 
-                                    title={experience.title} 
-                                    subheader={experience.company} 
+                                <CardHeader
+                                    title={experience.title}
+                                    subheader={experience.company}
                                     className="text-left"
                                     sx={{ paddingBottom: 0 }}
                                 />

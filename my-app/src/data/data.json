@@ -1,68 +1,226 @@
 {
     "projects": [
         {
-            "name": "AI-Powered Recommendation Engine",
-            "description": "Developed a scalable recommendation system using collaborative filtering and deep learning techniques. Implemented with Python, TensorFlow, and deployed on AWS.",
-            "image": "perfume.jpg",
-            "github": "https://github.com/yourusername/recommendation-engine"
+            "name": "Calendar App Project \"Oasis\"",
+            "description": "Developed a mobile event planning app for Android using Java. Migrated to RoomDatabase for robust data management.",
+            "image": "pages/oasis/demo-1.jpeg",
+            "github": "https://github.com/ash3327/OasisPlanner/tree/development"
         },
         {
-            "name": "Distributed Data Processing Pipeline",
-            "description": "Built a high-throughput data processing system using Apache Kafka for real-time streaming and Apache Spark for batch processing. Deployed on a Kubernetes cluster.",
-            "image": "logo.svg", 
-            "github": "https://github.com/yourusername/data-pipeline"
+            "name": "Deep Q-Learning Shooter Game Project \"SnowFight\"",
+            "description": "Led a project to create a shooter game using Deep Q-learning. Enhanced agent performance through hyperparameter tuning.",
+            "image": "pages/snowfight/results-2.gif",
+            "github": "https://github.com/ash3327/SnowFight"
         },
         {
-            "name": "Natural Language Processing API",
-            "description": "Created a RESTful API for sentiment analysis and entity recognition using spaCy and Flask. Containerized with Docker and deployed on Google Cloud Run.",
-            "image": "logo.svg",
-            "github": "https://github.com/yourusername/nlp-api"
+            "name": "Automatic Clicker \"RegSubjer\"",
+            "description": "Developed an automatic clicker for efficient course registration. Achieved fast response times, enhancing user experience.",
+            "image": "pages/regsubjer/regsubjer.gif",
+            "github": "https://github.com/ash3327/RegSubjer"
         },
         {
-            "name": "Blockchain-based Supply Chain Tracker",
-            "description": "Implemented a decentralized application (DApp) for supply chain management using Ethereum smart contracts and React.js for the frontend.",
-            "image": "perfume.jpg",
-            "github": "https://github.com/yourusername/supply-chain-dapp"
+            "name": "Archaic RPG game",
+            "description": "Developed a customizable RPG game with map creation tools. Allowed users to interact with NPCs through custom coding.",
+            "image": "pages/rpg/archic-1.jpg",
+            "github": "https://github.com/ash3327/ArchaicBitmapGame"
         }
     ],
+    "aboutmes": {
+        "work": [
+            {
+                "institution": "GlassboxAI HK",
+                "degree": "Machine Learning Intern (Summer Internship)",
+                "date": "June 2024 - Present",
+                "description": [
+                    "Developed backend solutions using Python, Flask, and MySQL.",
+                    "Created LLM-based inference scripts for existing fine-tuning pipelines.",
+                    "~Jun - Aug 2024"
+                ],
+                "awards": [
+                    {
+                        "name": "Researched methods for temporal alignment on gesture sequences.",
+                        "year": "Aug 2024"
+                    },
+                    {
+                        "name": "Implemented traditional language models for sign language translation tasks.",
+                        "year": "Jun 2024"
+                    }
+                ]
+            }
+        ],
+        "education": [
+            {
+                "institution": "The Chinese University of Hong Kong",
+                "degree": "Bachelor of Engineering in Artificial Intelligence: Systems and Technology",
+                "date": "Sep 2021 - Expected Aug 2025",
+                "description": [
+                    "Current GPA: 3.784 / 4.0",
+                    "Major GPA: 3.871 / 4.0",
+                    "~Summer 2024"
+                ],
+                "awards": [
+                    {
+                        "name": "CSE Outstanding Academic Performance (Bronze Award)",
+                        "year": "2023-24"
+                    },
+                    {
+                        "name": "Dean's List",
+                        "year": "2021-23",
+                        "link": "https://www.erg.cuhk.edu.hk/erg/sites/default/files/publication/CU%20Engineering%20Awards%20Presentation%20Booklet_1106_Online.pdf#page=11"
+                    }
+                ]
+            },
+            {
+                "institution": "Bishop Hall Jubilee School",
+                "degree": "Hong Kong Diploma of Secondary Education",
+                "date": "Sep 2015 - Aug 2021",
+                "description": [
+                    "DSE(2021):",
+                    "5** in Maths and Physics,",
+                    "5* in Chemistry, ICT, and Maths (M2)",
+                    "5 in Chinese and English",
+                    "~Summer 2021"
+                ],
+                "awards": [
+                    {
+                        "name": "Finalist, Hong Kong Secondary School Coding Challenge",
+                        "year": "2021"
+                    },
+                    {
+                        "name": "Animation for Opening Ceremony, Solar Panel Project",
+                        "year": "2019",
+                        "link": "https://www.bastillepost.com/hongkong/article/4905905-%E4%B8%AD%E5%AD%B8%E5%A4%A9%E5%8F%B0%E8%A3%9D144%E5%A1%8A%E5%A4%AA%E9%99%BD%E8%83%BD%E6%9D%BF-%E6%AF%8F%E5%B9%B4%E6%96%99%E6%9C%89%E8%BF%9123%E8%90%AC%E4%B8%8A%E7%B6%B2%E9%9B%BB%E5%83%B9%E6%94%B6/?fromG=1"
+                    }
+                ]
+            }
+        ]
+    },
     "experiences": [
         {
-          "title": "Senior AI Engineer",
-          "company": "TechCorp Inc.",
-          "date": "2021 - Present",
-          "description": "Leading the development of advanced machine learning models for predictive analytics.",
-          "skills": ["Python", "TensorFlow", "PyTorch", "AWS"],
-          "type": "work"
+            "title": "Machine Learning Intern (Summer Internship)",
+            "company": "GlassboxAI HK",
+            "date": "June 2024 - Present",
+            "description": "(Description will be added later.)",
+            "skills": [
+                "Python",
+                "Machine Learning",
+                "NLP"
+            ],
+            "type": "work"
         },
         {
-          "title": "Personal Project: AI-Powered Chess Engine",
-          "date": "2020 - 2021",
-          "description": "Developed a chess engine using deep reinforcement learning techniques.",
-          "skills": ["Python", "PyTorch", "Monte Carlo Tree Search"],
-          "type": "project"
+            "title": "Image Generation (GANs, Diffusion)",
+            "date": "May - Jun 2024",
+            "description": "Self-learned GAN architectures and implemented a Diffusion model. Redesigned previous project for improved structure and code quality.",
+            "skills": [
+                "Python",
+                "PyTorch",
+                "GANs",
+                "Diffusion Models"
+            ],
+            "type": "project"
         },
         {
-          "title": "Machine Learning Engineer",
-          "compnay": "DataDrive Solutions",
-          "date": "2018 - 2021",
-          "description": "Implemented and optimized machine learning pipelines for big data processing.",
-          "skills": ["Python", "Spark", "Kubernetes", "Google Cloud Platform"],
-          "type": "work"
+            "title": "Calendar App Project \"Oasis\"",
+            "date": "Mar 2023 - Temporarily Halted in Jun 2024",
+            "description": "Developed a mobile event planning app for Android using Java. Migrated to RoomDatabase for robust data management.",
+            "skills": [
+                "Java",
+                "Android Development",
+                "RoomDatabase"
+            ],
+            "type": "project"
         },
         {
-          "title": "Open Source Contribution: NLP Toolkit",
-          "date": "2017 - 2018",
-          "description": "Contributed to an open-source natural language processing toolkit, focusing on sentiment analysis modules.",
-          "skills": ["Python", "NLTK", "spaCy"],
-          "type": "project"
+            "title": "Peer-to-Peer Communication App",
+            "date": "Jan - Apr 2024",
+            "description": "Collaborated on a Python-based peer-to-peer communication app. Implemented UI and synchronization for audio/video packets.",
+            "skills": [
+                "Python",
+                "Networking",
+                "UI Development"
+            ],
+            "type": "project"
         },
         {
-          "title": "Data Scientist",
-          "compnay": "StartUp Analytics",
-          "date": "2016 - 2018",
-          "description": "Conducted data analysis and built predictive models for various client projects.",
-          "skills": ["Python", "R", "SQL", "Tableau"],
-          "type": "work"
+            "title": "Protein Sequence Classification Kaggle Competition",
+            "date": "Mar 2024",
+            "description": "Applied ProtTrans transformer for protein sequence classification. Achieved high accuracy on both public and private leaderboards.",
+            "skills": [
+                "Python",
+                "PyTorch",
+                "Machine Learning",
+                "Bioinformatics"
+            ],
+            "type": "project"
+        },
+        {
+            "title": "Deep Q-Learning Shooter Game Project \"SnowFight\"",
+            "date": "Oct - Dec 2022",
+            "description": "Led a project to create a shooter game using Deep Q-learning. Enhanced agent performance through hyperparameter tuning.",
+            "skills": [
+                "Python",
+                "PyTorch",
+                "Reinforcement Learning",
+                "Gym"
+            ],
+            "type": "project"
+        },
+        {
+            "title": "Image Segmentation (U-Net)",
+            "date": "Aug 2022, reworked on Aug 2023",
+            "description": "Trained U-Net model for semantic segmentation tasks. Achieved high pixel accuracy on multiple datasets.",
+            "skills": [
+                "Python",
+                "PyTorch",
+                "Computer Vision",
+                "U-Net"
+            ],
+            "type": "project"
+        },
+        {
+            "title": "Automatic Clicker \"RegSubjer\"",
+            "date": "Aug 2021, reworked on Jan 2022",
+            "description": "Developed an automatic clicker for efficient course registration. Achieved fast response times, enhancing user experience.",
+            "skills": [
+                "Java",
+                "API Development",
+                "Automation"
+            ],
+            "type": "project"
+        },
+        {
+            "title": "Archaic RPG game",
+            "date": "Jan 2020 - Nov 2021",
+            "description": "Developed a customizable RPG game with map creation tools. Allowed users to interact with NPCs through custom coding.",
+            "skills": [
+                "Java",
+                "Game Development",
+                "UI Design"
+            ],
+            "type": "project"
         }
-      ]
+    ],
+    "slides": [
+        {
+            "image": "pages/oasis/demo-1.jpeg",
+            "title": "Calendar App Project \"Oasis\"",
+            "description": "A mobile event planning app for Android"
+        },
+        {
+            "image": "pages/snowfight/results-2.gif",
+            "title": "Deep Q-Learning Shooter Game \"SnowFight\"",
+            "description": "AI-powered game using reinforcement learning"
+        },
+        {
+            "image": "pages/regsubjer/regsubjer.gif",
+            "title": "Automatic Clicker \"RegSubjer\"",
+            "description": "Efficient course registration tool"
+        },
+        {
+            "image": "pages/rpg/archic-1.jpg",
+            "title": "Archaic RPG Game",
+            "description": "Customizable RPG with map creation tools"
+        }
+    ]
 }

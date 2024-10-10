@@ -1,5 +1,6 @@
 import { Facebook, Instagram, Linkedin, Github, Mail, MapPin } from 'lucide-react'
 
+import navData from '../../data/navData.json';
 import { smoothScroll } from '../../utils/smoothScroll';
 
 export default function Footer() {
@@ -9,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="text-center md:text-left">
             <h2 className="text-2xl font-bold mb-4">Sam K. H. Tam</h2>
-            <p className="text-sm">AI Engineer & Backend Developer</p>
+            <p className="text-sm">Final-Year Undergraduate, Entry-Level <br></br>AI Engineer & Backend Developer</p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
@@ -27,10 +28,11 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="/" className="hover:text-gray-300">Home</a></li>
-              <li><a href="#about" onClick={(e) => { e.preventDefault(); smoothScroll('#about'); }} className="hover:text-gray-300">About</a></li>
-              <li><a href="#projects" onClick={(e) => { e.preventDefault(); smoothScroll('#projects'); }} className="hover:text-gray-300">Projects</a></li>
-              <li><a href="/experience" className="hover:text-gray-300">Experience</a></li>
+              {
+                navData.navigation.main.map((item) => (
+                  <li><a href={item.url} onClick={(e) => { e.preventDefault(); smoothScroll(`${item.url}`); }} className="hover:text-gray-300">{item.label}</a></li>
+                ))
+              }
             </ul>
           </div>
           <div>

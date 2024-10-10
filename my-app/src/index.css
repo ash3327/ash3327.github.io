@@ -27,3 +27,10 @@ p {
 .half-height {
   min-height: 50vh;
 }
+
+.card-link {
+  color: var(--theme-color);
+}
+.card-link:hover {
+  color: grey;
+}

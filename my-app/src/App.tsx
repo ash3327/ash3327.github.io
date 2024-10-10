@@ -6,6 +6,7 @@ import './App.css';
 import MenuBar from './pages/parts/MenuBar'
 import Home from './pages/Home';
 import Footer from './pages/parts/Footer';
+import Aboutme from 'pages/Aboutme';
 import Experience from './pages/Experience';
 import { scrollToAnchorOnLoad } from './utils/smoothScroll';
 
@@ -21,6 +22,7 @@ function App() {
         <section className="mt-16">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/aboutme" element={<Aboutme />} />
             <Route path="/experience" element={<Experience />} />
           </Routes>
         </section>

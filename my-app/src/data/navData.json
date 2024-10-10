@@ -1,0 +1,10 @@
+{
+    "navigation": {
+      "main": [
+        { "label": "Home", "url": "/#home" },
+        { "label": "Experience", "url": "/aboutme#aboutme" },
+        { "label": "Education", "url": "/aboutme#education" },
+        { "label": "Projects", "url": "/experience#experience"}
+      ]
+    }
+}

@@ -16,16 +16,19 @@ export default function About() {
           />
           <div>
             <p className="text-lg text-gray-700 mb-4">
-              Hi, I'm Sam, an AI engineer and backend developer with a passion for building scalable and intelligent systems. With 5+ years of experience in machine learning, distributed systems, and cloud technologies, I specialize in creating robust backend solutions that power AI-driven applications.
+              Nice to meet you! I'm Sam, an AI enthusiast and app developer in my fourth year at the Chinese University of Hong Kong, graduating in Summer 2025.
             </p>
-            <p className="text-lg text-gray-700 mb-6">
-              My expertise includes Python, TensorFlow, PyTorch, Apache Kafka, and cloud platforms like AWS and Google Cloud. I'm always excited to take on new challenges and contribute to cutting-edge projects in the AI and backend development space.
+            <p className="text-lg text-gray-700 mb-4">
+              My experience primarily revolves around Python, TensorFlow, and PyTorch. I actively engage in working on personal projects and regularly read research papers in the field. I also have some experience in Java and am eager to learn new skills as needed.
             </p>
-            <div className="text-left">
+            <p className="text-lg text-gray-700">
+              I’m always excited to embrace new challenges and contribute to innovative projects in AI and backend development.
+            </p>
+            {/* <div className="text-left">
               <BlackButton href="/resume.pdf" download>
                 Download Resume
               </BlackButton>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

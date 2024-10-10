@@ -4,28 +4,28 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
-import perfume from "../../images/perfume.jpg";
-import logo from "../../images/logo.svg";
+import data from "../../data/data.json";
 
-const slides = [
-  {
-    image: perfume, 
-    title: "Essence of Elegance",
-    description: "A captivating blend of floral and woody notes"
-  },
-  {
-    image: logo,
-    title: "Midnight Mystery",
-    description: "An intoxicating aroma for the enigmatic soul"
-  },
-  {
-    image: perfume, 
-    title: "Ocean Breeze",
-    description: "Fresh and invigorating scents of the sea"
-  }
-]
+// Define a type for the slide
+type Slide = {
+  image: string;
+  title: string;
+  description: string;
+};
 
 export default function ProjectSlideshow() {
+    // Load Projects
+    const [slides, setSlides] = useState<Slide[]>([]);
+
+    useEffect(() => {
+      const fetchData = async () => {
+        setSlides(data.slides);
+      };
+
+      fetchData();
+    }, []);
+
+    // Slideshow Part
     const [currentIndex, setCurrentIndex] = useState(0)
   
     const nextSlide = () => {
@@ -39,8 +39,9 @@ export default function ProjectSlideshow() {
     useEffect(() => {
       const timer = setInterval(nextSlide, 5000) // Auto-advance every 5 seconds
       return () => clearInterval(timer)
-    }, [])
+    }, [slides.length]) // Ensure it depends on slides length
   
+    // UI
     return (
       <section id="home" className="relative w-full half-height overflow-hidden bg-gray-900">
         <AnimatePresence initial={false}>
@@ -53,19 +54,19 @@ export default function ProjectSlideshow() {
             transition={{ duration: 0.5 }}
           >
             <img
-              src={slides[currentIndex].image}
-              alt={slides[currentIndex].title}
+              src={slides[currentIndex] ? require(`../../images/${slides[currentIndex].image}`): null}
+              alt={slides[currentIndex]?.title}
               className="object-cover w-full h-full opacity-50"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
               <motion.h2
-                className="text-4xl md:text-6xl font-bold mb-4"
+                className="text-4xl md:text-5xl font-bold mb-4"
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.2 }}
               >
-                {slides[currentIndex].title}
+                {slides[currentIndex]?.title}
               </motion.h2>
               <motion.p
                 className="text-xl md:text-2xl max-w-2xl"
@@ -73,7 +74,7 @@ export default function ProjectSlideshow() {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.4 }}
               >
-                {slides[currentIndex].description}
+                {slides[currentIndex]?.description}
               </motion.p>
             </div>
           </motion.div>
@@ -108,4 +109,4 @@ export default function ProjectSlideshow() {
         </div>
       </section>
     )
-  }
+}
