@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.65f917f4.css",
-    "main.js": "/personal-website/static/js/main.ab554220.js",
+    "main.css": "/personal-website/static/css/main.e9cf1aee.css",
+    "main.js": "/personal-website/static/js/main.5d3d2c62.js",
     "static/js/453.ed3810f9.chunk.js": "/personal-website/static/js/453.ed3810f9.chunk.js",
-    "static/media/perfume.jpg": "/personal-website/static/media/perfume.b2901b8c02ad37258379.jpg",
+    "static/media/fa-solid-900.ttf": "/personal-website/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/personal-website/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/personal-website/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/personal-website/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/personal-website/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/personal-website/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/personal-website/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/personal-website/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/personal-website/index.html",
-    "main.65f917f4.css.map": "/personal-website/static/css/main.65f917f4.css.map",
-    "main.ab554220.js.map": "/personal-website/static/js/main.ab554220.js.map",
+    "main.e9cf1aee.css.map": "/personal-website/static/css/main.e9cf1aee.css.map",
+    "main.5d3d2c62.js.map": "/personal-website/static/js/main.5d3d2c62.js.map",
     "453.ed3810f9.chunk.js.map": "/personal-website/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65f917f4.css",
-    "static/js/main.ab554220.js"
+    "static/css/main.e9cf1aee.css",
+    "static/js/main.5d3d2c62.js"
   ]
 }
