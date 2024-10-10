@@ -49,4 +49,4 @@ npm run deploy
 
 ## Old Repo
 
-Moved to 
+Moved to https://github.com/ash3327/ash3327.github.io-old and https://ash3327.github.io/ash3327.github.io-old/
