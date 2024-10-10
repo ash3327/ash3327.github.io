@@ -22,7 +22,6 @@ const ExperienceTimeline: React.FC = () => {
     useEffect(() => {
         const fetchData = async () => {
             setExperiences(data.experiences);
-            // console.log(experiences);
         };
 
         fetchData();

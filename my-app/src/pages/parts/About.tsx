@@ -1,8 +1,3 @@
-import { Button } from "@mui/material"
-import BlackButton from "../../components/BlackButton"
-
-import ProfilePic from "../../images/face 4.png"
-
 export default function About() {
   return (
     <section id="about" className="bg-white">
@@ -10,7 +5,7 @@ export default function About() {
         <h2 className="text-3xl font-extrabold text-gray-900 mb-8 text-center">About Me</h2>
         <div className="flex flex-col md:flex-row items-center gap-8">
           <img
-            src={ProfilePic}
+            src={`${process.env.PUBLIC_URL}/images/face 4.png`}
             alt="Sam Tam, Ka Ho"
             className="w-64 h-64 rounded-full object-cover"
           />

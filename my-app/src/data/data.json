@@ -104,6 +104,7 @@
             "skills": [
                 "Python",
                 "Machine Learning",
+                "Artificial Intelligence (AI)",
                 "NLP"
             ],
             "type": "work"
@@ -116,7 +117,9 @@
                 "Python",
                 "PyTorch",
                 "GANs",
-                "Diffusion Models"
+                "Diffusion Models",
+                "Machine Learning",
+                "Artificial Intelligence (AI)"
             ],
             "type": "project"
         },
@@ -150,7 +153,7 @@
                 "Python",
                 "PyTorch",
                 "Machine Learning",
-                "Bioinformatics"
+                "Artificial Intelligence (AI)"
             ],
             "type": "project"
         },
@@ -161,6 +164,8 @@
             "skills": [
                 "Python",
                 "PyTorch",
+                "Machine Learning",
+                "Artificial Intelligence (AI)",
                 "Reinforcement Learning",
                 "Gym"
             ],
@@ -173,6 +178,8 @@
             "skills": [
                 "Python",
                 "PyTorch",
+                "Machine Learning",
+                "Artificial Intelligence (AI)",
                 "Computer Vision",
                 "U-Net"
             ],
@@ -222,5 +229,386 @@
             "title": "Archaic RPG Game",
             "description": "Customizable RPG with map creation tools"
         }
-    ]
+    ],
+    "experiences2": [
+    {
+        "id": "1",
+        "title": "Machine Learning Intern (Summer Internship)",
+        "company": "GlassboxAI HK",
+        "date": "June 2024 - Present",
+        "description": "",
+        "projects": [
+            {
+                "id": "1a",
+                "title": "Machine Learning Intern (Summer Internship)",
+                "company": "GlassboxAI HK",
+                "date": "June 2024 - Present",
+                "description": "Developed backend solutions using Python, Flask, and MySQL. Created LLM-based inference scripts for existing fine-tuning pipelines.",
+                "image": "",
+                "skills": [
+                    "Python",
+                    "Machine Learning",
+                    "Artificial Intelligence (AI)",
+                    "NLP",
+                    "Flask",
+                    "MySQL"
+                ],
+                "details": [
+                    "Implemented traditional language models on sign language translation tasks.",
+                    "Built backend solution using Python, Flask, and MySQL.",
+                    "Implemented LLM-based inference scripts for existing fine-tuning pipelines.",
+                    "Researched on methods to perform temporal alignment on gesture sequences."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Awards",
+        "company": "The Chinese University of Hong Kong",
+        "date": "Sep 2021 - Present",
+        "description": "",
+        "projects": [
+            {
+                "id": "2324CSEOutstanding",
+                "title": "CSE Outstanding Academic Performance (Bronze Award)",
+                "company": "The Chinese University of Hong Kong",
+                "date": "2023 - 2024",
+                "description": "",
+                "image": "",
+                "skills": [],
+                "links": {
+                    "Certificate": {"link": "/archive/cse_outstanding_academic_award_bronze.pdf", "icon":"fa fa-link"}
+                },
+                "details": []
+            },
+            {
+                "id": "2122DeansList",
+                "title": "Dean's List",
+                "company": "The Chinese University of Hong Kong",
+                "date": "2021 - 2023",
+                "description": "",
+                "image": "",
+                "skills": [],
+                "links": {
+                    "Certificate": {"link": "/archive/deansListVerification.pdf#page=1", "icon":"fa fa-link"}
+                },
+                "details": []
+            },
+            {
+                "id": "2122CollegeHeadsList",
+                "title": "College Head's List",
+                "company": "The Chinese University of Hong Kong",
+                "date": "2021 - 2022",
+                "description": "",
+                "image": "",
+                "skills": [],
+                "details": []
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Course Projects",
+        "company": "The Chinese University of Hong Kong",
+        "date": "Sep 2021 - Present",
+        "description": "",
+        "projects": [
+            {
+                "id": "P2PCommunicationApp",
+                "title": "Peer-to-Peer Communication App",
+                "company": "The Chinese University of Hong Kong",
+                "date": "Jan - Apr 2024",
+                "description": "Collaborated on a Python-based peer-to-peer communication app.",
+                "image": "https://github.com/ash3327/ash3327/assets/86100752/6723681d-2084-4c47-8f9f-855b728c8d07",
+                "skills": [
+                    "Python",
+                    "Networking",
+                    "UI Development",
+                    "Group Project"
+                ],
+                "details": [
+                    "Implemented GUI for audio recording, waveform display and other functions.",
+                    "Implemented synchronization mechanism for audio and video packets sent through socket.",
+                    "Contributed to signals sent through sockets between client and server.",
+                    "Addressed audio and video synchronization issues to prevent overloading the server-end."
+                ]
+            },
+            {
+                "id": "Kaggle_ProteinClassification",
+                "title": "Protein Sequence Classification Kaggle Competition",
+                "company": "The Chinese University of Hong Kong",
+                "date": "Mar 2024",
+                "description": "Applied ProtTrans transformer for protein sequence classification.",
+                "image": "",
+                "skills": [
+                    "Python",
+                    "PyTorch",
+                    "Machine Learning",
+                    "Artificial Intelligence (AI)"
+                ],
+                "links": {
+                    "Competition": {"link": "https://www.kaggle.com/competitions/aist4010-spring2024-a2", "icon": "fa fa-link"}
+                },
+                "details": [
+                    "Applied pretrained ProtTrans transformer model and trained a fully-connected classifier head.",
+                    "Achieved 98.438% accuracy on public leaderboard and 94.161% accuracy on private leaderboard."
+                ]
+            },
+            {
+                "id": "snowfight",
+                "title": "Deep Q-Learning Shooter Game Project \"SnowFight\"",
+                "company": "The Chinese University of Hong Kong",
+                "date": "Oct - Dec 2022",
+                "description": "An agent playing a custom shooter game using Deep Q-learning.",
+                "image": "https://github.com/ash3327/ash3327/assets/86100752/60f36fa1-d6fd-490b-b275-19bb1cbe9715",
+                "skills": [
+                    "Python",
+                    "PyTorch",
+                    "Reinforcement Learning",
+                    "Q-learning",
+                    "Gym",
+                    "Group Project",
+                    "Machine Learning",
+                    "Artificial Intelligence (AI)"
+                ],
+                "links": {
+                    "GitHub": {"link": "https://github.com/ash3327/SnowFight", "icon":"fab fa-github"}
+                },
+                "details": [
+                    "Created a Gym environment of a simple third-person shooter game in Python.",
+                    "Implemented a simple Deep-Q Network with PyTorch to train agents to master at the game.",
+                    "Fine-tuned the hyperparameters of the agent, achieving average kill streak of 7 and lengthened the survival duration by 4 times, significantly better than the random baseline of 0.22 kills on average.",
+                    "Explored how deep-Q learning models handle a variable quantity of moving objects, i.e. the bullets and enemies, and relevant adjustments to the reward functions and representations of the observation space needed."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "title": "Other Projects during School",
+        "company": "The Chinese University of Hong Kong",
+        "date": "Sep 2021 - Present",
+        "description": "",
+        "projects": [
+            {
+                "id": "GAN",
+                "title": "Image Generation (GANs, Diffusion)",
+                "company": "Self Project",
+                "date": "May - Jun 2024",
+                "description": "",
+                "image": "",
+                "skills": [
+                    "Python",
+                    "PyTorch",
+                    "GANs",
+                    "Diffusion Models",
+                    "Machine Learning",
+                    "Artificial Intelligence (AI)"
+                ],
+                "links": {
+                    "GitHub": {"link": "https://github.com/ash3327/project_diffusion", "icon":"fab fa-github"}
+                },
+                "details": [
+                    "Self-learned GAN architectures and implemented a Diffusion model.",
+                    "Redesigned previous project for improved structure and code quality."
+                ]
+            },
+            {
+                "id": "ImageSegYOLO",
+                "title": "Image Segmentation (YOLO-v5)",
+                "company": "Self Project",
+                "date": "Jun 2023 - Jun 2023",
+                "description": "",
+                "image": "https://github.com/ash3327/ash3327/assets/86100752/ed33e608-a5b3-4d1f-8e87-06367a4b2d21",
+                "skills": [
+                    "Python",
+                    "Machine Learning",
+                    "Artificial Intelligence (AI)",
+                    "Image Segmentation"
+                ],
+                "links": {
+                    "GitHub": {"link": "https://github.com/ash3327/ObjectDetection-v1", "icon": "fab fa-github"}
+                },
+                "details": [
+                    "Referred to an online tutorial while implementing the project.",
+                    "Applied Abrewley's Sort Library and self-implemented instance label assigning function based on maximum overlap to stabilize the labelled id on each car moving across frames."
+                ]
+            },
+            {
+                "id": "QLearn2048",
+                "title": "Q-learning Project on the Game 2048",
+                "company": "Self Project",
+                "date": "Dec 2022 - Jan 2023",
+                "description": "",
+                "image": "",
+                "skills": [
+                    "Python",
+                    "Keras",
+                    "Tensorflow",
+                    "Q-learning",
+                    "Reinforcement Learning",
+                    "Machine Learning",
+                    "Artificial Intelligence (AI)"
+                ],
+                "links": {
+                    "GitHub": {"link": "https://github.com/ash3327/2048-QLearning-v1", "icon":"fab fa-github"}
+                },
+                "details": [
+                    "Created a Python environment of the game 2048.",
+                    "Implemented a simple Deep-Q Network with PyTorch.",
+                    "Trained agent to consistently achieve the 512 tile, a challenging milestone for new players.",
+                    "Note: Performance is not very good."
+                ]
+            },
+            {
+                "id": "ImageSegUNet",
+                "title": "Image Segmentation (U-Net)",
+                "company": "Self Project",
+                "date": "Aug 2022, reworked on Aug 2023",
+                "description": "",
+                "image": "https://github.com/ash3327/ash3327/assets/86100752/350bb431-2e78-4d07-af59-ba7cec4b5baa",
+                "skills": [
+                    "Python",
+                    "PyTorch",
+                    "Computer Vision",
+                    "U-Net",        
+                    "Machine Learning",
+                    "Artificial Intelligence (AI)"
+                ],
+                "links": {
+                    "GitHub": {"link": "https://github.com/ash3327/ImageSegmentation-UNet", "icon":"fab fa-github"}
+                },
+                "details": [
+                    "Trained U-Net model for semantic segmentation tasks.",
+                    "Achieved test Pixel Accuracy of 0.9955 and dice score of 0.9911 for Carvana dataset.",
+                    "Achieved test Pixel Accuracy of 0.8669 for Cityscape dataset."
+                ]
+            },
+            {
+                "id": "ImageGenGAN",
+                "title": "Image Generation (GANs)",
+                "company": "Self Project",
+                "date": "Aug 2022",
+                "description": "",
+                "image": "",
+                "skills": [
+                    "Python",
+                    "PyTorch",
+                    "GANs",     
+                    "Machine Learning",
+                    "Artificial Intelligence (AI)"
+                ],
+                "links": {
+                    "GitHub": {"link": "https://github.com/ash3327/GAN-self-learn-v1", "icon": "fab fa-github"}
+                },
+                "details": [
+                    "Explored various GAN architectures for image generation.",
+                    "Generated results using WGAN trained for 99 epochs."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Personal Projects",
+        "company": "",
+        "date": "",
+        "description": "",
+        "projects": [
+            {
+                "id": "oasis",
+                "title": "Calendar App Project \"Oasis\"",
+                "company": "Self Project",
+                "date": "Mar 2023 - Temporarily Halted in Jun 2024",
+                "description": "A mobile event planning app for Android using Java.",
+                "image": "pages/oasis/demo-1.jpeg",
+                "skills": [
+                    "Java",
+                    "Android Development",
+                    "RoomDatabase"
+                ],
+                "links": {
+                    "GitHub": {"link": "https://github.com/ash3327/OasisPlanner", "icon": "fab fa-github"},
+                    "ReadMe": {"link": "https://github.com/ash3327/OasisPlanner/blob/development/README.md", "icon": "fa fa-info-circle"}
+                },
+                "details": [
+                    "Worked across the development lifecycle to build and maintain code.",
+                    "Migrated the data storage and retrieval to the more robust RoomDatabase with extensive use of SQL queries.",
+                    "Implemented Event Arranger to show alarms set by users and allow editing of agendas."
+                ]
+            },
+            {
+                "id": "regsubjer",
+                "title": "Automatic Clicker \"RegSubjer\"",
+                "company": "Self Project",
+                "date": "Aug 2021, reworked on Jan 2022",
+                "description": "An automatic clicker for efficient course registration. ",
+                "image": "https://github.com/user-attachments/assets/8baf9705-df8c-4380-9f41-b30560529711",
+                "skills": [
+                    "Java",
+                    "API Development",
+                    "Automation"
+                ],
+                "links": {
+                    "GitHub": {"link": "https://github.com/ash3327/RegSubjer", "icon":"fab fa-github"}
+                },
+                "details": [
+                    "Integrated the app with an external time server to ensure precise timing for course registration.",
+                    "This practical solution has significantly streamlined the course registration process for students.",
+                    "Successfully used the app for personal course registration, consistently securing spots even in courses with limited vacancies.",
+                    "Synchronization depends solely on the remote time server and not on the local time, with latency deducted."
+                ]
+            },
+            {
+                "id": "rpg",
+                "title": "Archaic RPG game",
+                "company": "Self Project",
+                "date": "Jan 2020 - Nov 2021",
+                "description": "A customizable RPG game with map creation tools.",
+                "image": "https://github.com/ash3327/ash3327/assets/86100752/746b60b2-b805-4f3f-bf24-3a3304e682b5",
+                "skills": [
+                    "Java",
+                    "Game Development",
+                    "UI Design"
+                ],
+                "links": {
+                    "GitHub": {"link": "https://github.com/ash3327/ArchaicBitmapGame", "icon":"fab fa-github"}
+                },
+                "details": [
+                    "Developed a GamePlayer feature allowing users to play their maps or load other people's maps.",
+                    "Created a MapCreator tool for users to change landscape tiles, place items, monsters, and NPCs, and add multiple levels to their maps.",
+                    "Implemented a Custom Code Editor enabling users to customize map interactions, including NPC interactions through custom coding."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "title": "Learning Journey",
+        "company": "Bishop Hall Jubilee School (Secondary Education)",
+        "date": "Sep 2015 - Aug 2021",
+        "description": "",
+        "projects": [
+            {
+                "id": "solarPanelAnimation",
+                "title": "Animation for Opening Ceremony, Solar Panel Project",
+                "company": "Bishop Hall Jubilee School",
+                "date": "2019",
+                "description": "Created an animation for the opening ceremony of the school's solar panel project.",
+                "image": "https://image.bastillepost.com/704x/wp-content/uploads/hongkong/2019/08/20190814-CR-%E6%9D%8E%E9%8A%B3%E6%B3%A21.jpeg.webp",
+                "skills": [
+                    "Animation",
+                    "Java",
+                    "API"
+                ],
+                "links": {
+                    "News Article": {"link": "https://www.bastillepost.com/hongkong/article/4905905-%E4%B8%AD%E5%AD%B8%E5%A4%A9%E5%8F%B0%E8%A3%9D144%E5%A1%8A%E5%A4%AA%E9%99%BD%E8%83%BD%E6%9D%BF-%E6%AF%8F%E5%B9%B4%E6%96%99%E6%9C%89%E8%BF%9123%E8%90%AC%E4%B8%8A%E7%B6%B2%E9%9B%BB%E5%83%B9%E6%94%B6/?fromG=1", "icon": "fa-solid fa-info-circle"}
+                },
+                "details": []
+            }
+        ]
+        
+    }
+]
 }

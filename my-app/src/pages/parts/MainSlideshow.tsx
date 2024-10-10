@@ -54,7 +54,7 @@ export default function ProjectSlideshow() {
             transition={{ duration: 0.5 }}
           >
             <img
-              src={slides[currentIndex] ? require(`../../images/${slides[currentIndex].image}`): null}
+              src={slides[currentIndex] ? `${process.env.PUBLIC_URL}/images/${slides[currentIndex].image}` : undefined}
               alt={slides[currentIndex]?.title}
               className="object-cover w-full h-full opacity-50"
             />

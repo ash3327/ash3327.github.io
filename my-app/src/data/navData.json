@@ -4,7 +4,7 @@
         { "label": "Home", "url": "/#home" },
         { "label": "Experience", "url": "/aboutme#aboutme" },
         { "label": "Education", "url": "/aboutme#education" },
-        { "label": "Projects", "url": "/experience#experience"}
+        { "label": "Projects", "url": "/experience-2#experience"}
       ]
     }
 }

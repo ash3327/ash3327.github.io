@@ -27,6 +27,11 @@ Material UI:
 npm install @mui/material @emotion/react @emotion/styled @mui/icons-material @mui/lab
 ```
 
+Font Awesome:
+```bash
+npm install @fortawesome/fontawesome-free
+```
+
 ## Local Deployment
 
 Execute the following:

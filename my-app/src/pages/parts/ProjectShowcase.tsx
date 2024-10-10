@@ -26,7 +26,7 @@ const ProjectShowcase: React.FC = () => {
               <CardMedia
                 component="img"
                 height="194"
-                image={require(`../../images/${project.image}`)}
+                image={`${process.env.PUBLIC_URL}/images/${project.image}`}
                 alt={project.name}
                 style={{ aspectRatio: 1.5 }} // Adjusted to maintain 1.5:1 aspect ratio
               />
