@@ -44,9 +44,14 @@ npm run start
 
 Execute the following:
 ```bash
+npm run build
 npm run deploy
 ```
 
 ## Old Repo
 
 Moved to https://github.com/ash3327/ash3327.github.io-old and https://ash3327.github.io/ash3327.github.io-old/
+
+## Bug Fixes
+
+Refer to https://stackoverflow.com/questions/71984401/react-router-not-working-with-github-pages

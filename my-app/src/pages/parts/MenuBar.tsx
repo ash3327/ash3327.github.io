@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { Github, Linkedin } from 'lucide-react'
 import { Button } from "@mui/material"
 
@@ -40,6 +39,6 @@ export default function MenuBar() {
           </div>
         </div>
       </div>
-    </nav>
+    </nav >
   )
 }

@@ -2,25 +2,25 @@
     "projects": [
         {
             "name": "Calendar App Project \"Oasis\"",
-            "description": "Developed a mobile event planning app for Android using Java. Migrated to RoomDatabase for robust data management.",
+            "description": "A mobile event planning app for Android using Java. Migrated to RoomDatabase for robust data management.",
             "image": "pages/oasis/demo-1.jpeg",
             "github": "https://github.com/ash3327/OasisPlanner/tree/development"
         },
         {
             "name": "Deep Q-Learning Shooter Game Project \"SnowFight\"",
-            "description": "Led a project to create a shooter game using Deep Q-learning. Enhanced agent performance through hyperparameter tuning.",
+            "description": "An agent playing a custom shooter game using Deep Q-learning. Enhanced agent performance through hyperparameter tuning.",
             "image": "pages/snowfight/results-2.gif",
             "github": "https://github.com/ash3327/SnowFight"
         },
         {
             "name": "Automatic Clicker \"RegSubjer\"",
-            "description": "Developed an automatic clicker for efficient course registration. Achieved fast response times, enhancing user experience.",
+            "description": "An automatic clicker for efficient course registration. Achieved fast response times, enhancing user experience.",
             "image": "pages/regsubjer/regsubjer.gif",
             "github": "https://github.com/ash3327/RegSubjer"
         },
         {
             "name": "Archaic RPG game",
-            "description": "Developed a customizable RPG game with map creation tools. Allowed users to interact with NPCs through custom coding.",
+            "description": "A customizable RPG game with map creation tools. Allowed users to interact with NPCs through custom coding.",
             "image": "pages/rpg/archic-1.jpg",
             "github": "https://github.com/ash3327/ArchaicBitmapGame"
         }
@@ -243,7 +243,7 @@
                 "title": "Machine Learning Intern (Summer Internship)",
                 "company": "GlassboxAI HK",
                 "date": "June 2024 - Present",
-                "description": "Developed backend solutions using Python, Flask, and MySQL. Created LLM-based inference scripts for existing fine-tuning pipelines.",
+                "description": "Developed backend solutions using Python, Flask, and MySQL.",
                 "image": "",
                 "skills": [
                     "Python",
@@ -255,7 +255,6 @@
                 ],
                 "details": [
                     "Implemented traditional language models on sign language translation tasks.",
-                    "Built backend solution using Python, Flask, and MySQL.",
                     "Implemented LLM-based inference scripts for existing fine-tuning pipelines.",
                     "Researched on methods to perform temporal alignment on gesture sequences."
                 ]
@@ -544,7 +543,7 @@
                 "company": "Self Project",
                 "date": "Aug 2021, reworked on Jan 2022",
                 "description": "An automatic clicker for efficient course registration. ",
-                "image": "https://github.com/user-attachments/assets/8baf9705-df8c-4380-9f41-b30560529711",
+                "image": "pages/regsubjer/regsubjer.gif",
                 "skills": [
                     "Java",
                     "API Development",
@@ -566,7 +565,7 @@
                 "company": "Self Project",
                 "date": "Jan 2020 - Nov 2021",
                 "description": "A customizable RPG game with map creation tools.",
-                "image": "https://github.com/ash3327/ash3327/assets/86100752/746b60b2-b805-4f3f-bf24-3a3304e682b5",
+                "image": "pages/rpg/archic-2.jpg",
                 "skills": [
                     "Java",
                     "Game Development",
@@ -595,7 +594,7 @@
                 "title": "Animation for Opening Ceremony, Solar Panel Project",
                 "company": "Bishop Hall Jubilee School",
                 "date": "2019",
-                "description": "Created an animation for the opening ceremony of the school's solar panel project.",
+                "description": "",
                 "image": "https://image.bastillepost.com/704x/wp-content/uploads/hongkong/2019/08/20190814-CR-%E6%9D%8E%E9%8A%B3%E6%B3%A21.jpeg.webp",
                 "skills": [
                     "Animation",
@@ -605,7 +604,10 @@
                 "links": {
                     "News Article": {"link": "https://www.bastillepost.com/hongkong/article/4905905-%E4%B8%AD%E5%AD%B8%E5%A4%A9%E5%8F%B0%E8%A3%9D144%E5%A1%8A%E5%A4%AA%E9%99%BD%E8%83%BD%E6%9D%BF-%E6%AF%8F%E5%B9%B4%E6%96%99%E6%9C%89%E8%BF%9123%E8%90%AC%E4%B8%8A%E7%B6%B2%E9%9B%BB%E5%83%B9%E6%94%B6/?fromG=1", "icon": "fa-solid fa-info-circle"}
                 },
-                "details": []
+                "details": [
+                    "Created an animation for the opening ceremony of the school's solar panel project",
+                    "Integrated an API to access real-time power generation data of the solar panels."
+                ]
             }
         ]
         

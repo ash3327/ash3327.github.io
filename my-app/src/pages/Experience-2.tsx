@@ -169,15 +169,19 @@ const ProjectDetails: React.FC<{ project: Project; handleClose: () => void }> = 
                     <li key={index} className="mb-2 text-left">{detail}</li>
                 ))}
             </ul>
-            <img
-                src={
-                    project.image.startsWith('https://')
-                        ? project.image
-                        : `${process.env.PUBLIC_URL}/images/${project.image}`
-                }
-                alt={project.title}
-                className="w-full object-cover rounded-lg"
-            />
+            {
+                project.image != "" ?
+                    <img
+                        src={
+                            project.image.startsWith('https://')
+                                ? project.image
+                                : `${process.env.PUBLIC_URL}/images/${project.image}`
+                        }
+                        alt={project.title}
+                        className="w-full object-cover rounded-lg"
+                    /> :
+                    <></>
+            }
             <div className="mt-6">
                 {/* Links are now part of the skills section */}
             </div>

@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin, Github, Mail, MapPin } from 'lucide-react'
+import { Linkedin, Github, Mail, MapPin } from 'lucide-react'
 
 import navData from '../../data/navData.json';
 import { smoothScroll } from '../../utils/smoothScroll';

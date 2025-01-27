@@ -7,9 +7,9 @@ import ProjectShowcase from './parts/ProjectShowcase';
 const Home: React.FC = () => {
     return (
         <section className="h-full">
-            <MainSlideshow />
+            {/* <MainSlideshow /> */}
             <About />
-            <ProjectShowcase/>
+            <ProjectShowcase />
         </section>
     );
 };

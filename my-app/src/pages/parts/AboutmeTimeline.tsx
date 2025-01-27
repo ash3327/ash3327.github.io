@@ -1,17 +1,13 @@
-import { Card, CardContent, CardHeader } from "@mui/material"
-import { Chip } from "@mui/material"
 import {
-    Container,
     Typography,
     Paper,
     Grid,
     List,
     ListItem,
     ListItemText,
-    Divider
 } from '@mui/material';
-import { School, EmojiEvents, Grade } from '@mui/icons-material';
-import React, { useEffect, useState } from 'react';
+import { School } from '@mui/icons-material';
+import React, { useState } from 'react';
 
 import data from "../../data/data.json";
 
