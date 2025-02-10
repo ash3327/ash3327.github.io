@@ -16,10 +16,10 @@ const ProjectShowcase: React.FC = () => {
   }, []);
 
   return (
-    <section id="projects" className="py-16 bg-gray-50">
+    <section id="projects" className="py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-extrabold text-gray-900 mb-8 text-center">Featured Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8"  style={{ maxWidth: '80%', margin: 'auto' }}>
+        <h2>Featured Projects</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8" style={{ maxWidth: '80%', margin: 'auto' }}>
           {projects.map((project, index) => (
             <Card key={index} className="overflow-hidden pb-3">
               <CardMedia
@@ -31,7 +31,7 @@ const ProjectShowcase: React.FC = () => {
               />
               <CardContent>
                 <CardHeader title={project.name} />
-                <p className="text-gray-600 px-5">{project.description}</p>
+                <p className="px-5">{project.description}</p>
               </CardContent>
               <CardActions className="justify-center">
                 <BlackButton>
