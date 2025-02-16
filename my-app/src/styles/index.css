@@ -26,6 +26,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  scrollbar-color: var(--grey-light) var(--grey-900);
+}
+
 /* Minor copmponents */
 
 code {

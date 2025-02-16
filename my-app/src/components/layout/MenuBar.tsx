@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom';
 export default function MenuBar() {
   return (
     <nav className="App-header">
-      {/* <div className="mx-auto px-4 sm:px-6 lg:px-8"> */}
       <div className="flex h-16 w-full mx-20">
         <div className="flex-shrink-0 flex items-center">
           <Link to="/" className="text-xl green">
@@ -26,22 +25,17 @@ export default function MenuBar() {
             }
           </div>
           <div className="App-nav flex items-center space-x-4">
-            {/* <Button size="medium" color="inherit"> */}
             <a href="https://github.com/ash3327" target="_blank" rel="noopener noreferrer" className="btn">
               <Github className="h-5 w-5" />
               <span>GitHub</span>
             </a>
-            {/* </Button> */}
-            {/* <Button size="medium" color="inherit"> */}
             <a href="https://linkedin.com/in/khtam-51a008256" target="_blank" rel="noopener noreferrer" className="btn">
               <Linkedin className="h-5 w-5" />
               <span>LinkedIn</span>
             </a>
-            {/* </Button> */}
           </div>
         </div>
       </div>
-      {/* </div> */}
     </nav >
   )
 }

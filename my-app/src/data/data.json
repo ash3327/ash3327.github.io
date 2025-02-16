@@ -233,16 +233,16 @@
     "experiences2": [
     {
         "id": "1",
-        "title": "Machine Learning Intern (Summer Internship)",
-        "company": "GlassboxAI HK",
-        "date": "June 2024 - Present",
+        "title": "Work Experience",
+        "company": "",
+        "date": "",
         "description": "",
         "projects": [
             {
                 "id": "1a",
                 "title": "Machine Learning Intern (Summer Internship)",
                 "company": "GlassboxAI HK",
-                "date": "June 2024 - Present",
+                "date": "Jun - Nov 2024",
                 "description": "Developed backend solutions using Python, Flask, and MySQL.",
                 "image": "",
                 "skills": [
@@ -490,7 +490,7 @@
                 "company": "Self Project",
                 "date": "Aug 2022",
                 "description": "",
-                "image": "",
+                "image": "https://github.com/ash3327/GAN-self-learn-v1/blob/main/202208051901_GAN_mnist_v5_WGAN/ezgif-4-98172f4be1.gif?raw=true",
                 "skills": [
                     "Python",
                     "PyTorch",

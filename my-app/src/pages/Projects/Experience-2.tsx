@@ -29,39 +29,41 @@ interface Experience {
 const dummyData: Experience[] = data.experiences2;
 
 const SearchBar: React.FC<{ searchQuery: string; setSearchQuery: (query: string) => void; selectedSkills: string[]; setSelectedSkills: (skills: string[]) => void }> = ({ searchQuery, setSearchQuery, selectedSkills, setSelectedSkills }) => (
-    <div className="fixed top-16 left-0 right-0 z-10 w-full p-4 flex justify-center space-x-4" style={{ maxWidth: '40%', margin: 'auto' }}>
-        <TextField
-            className="w-full"
-            variant="outlined"
-            placeholder="Search experiences and projects..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            InputProps={{
-                startAdornment: (
-                    <InputAdornment position="start">
-                        <Search className="h-5 w-5" />
-                    </InputAdornment>
-                )
-            }}
-        />
-        <Autocomplete
-            multiple
-            id="tags-outlined"
-            className="w-full"
-            options={Array.from(new Set(dummyData.map(experience => experience.projects.map(project => project.skills).flat()).flat()))}
-            getOptionLabel={(option) => option}
-            filterSelectedOptions
-            value={selectedSkills}
-            onChange={(e, value) => setSelectedSkills(value)}
-            renderInput={(params) => (
-                <TextField
-                    {...params}
-                    variant="outlined"
-                    label="Filter by skills"
-                    placeholder="Select skills"
-                />
-            )}
-        />
+    <div className="fixed top-16 left-0 right-0 z-10 w-full p-4" style={{ background: 'linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0))' }}>
+        <div className="flex justify-center space-x-4" style={{ maxWidth: '40%', margin: 'auto' }}>
+            <TextField
+                className="w-full"
+                variant="outlined"
+                placeholder="Search experiences and projects..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                InputProps={{
+                    startAdornment: (
+                        <InputAdornment position="start">
+                            <Search className="h-5 w-5" />
+                        </InputAdornment>
+                    )
+                }}
+            />
+            <Autocomplete
+                multiple
+                id="tags-outlined"
+                className="w-full"
+                options={Array.from(new Set(dummyData.map(experience => experience.projects.map(project => project.skills).flat()).flat()))}
+                getOptionLabel={(option) => option}
+                filterSelectedOptions
+                value={selectedSkills}
+                onChange={(e, value) => setSelectedSkills(value)}
+                renderInput={(params) => (
+                    <TextField
+                        {...params}
+                        variant="outlined"
+                        label="Filter by skills"
+                        placeholder="Select skills"
+                    />
+                )}
+            />
+        </div>
     </div>
 );
 
@@ -77,7 +79,7 @@ const ProjectList: React.FC<{
         {experiences.map((experience) => (
             <div key={experience.id} className="mb-8">
                 <div key={experience.id} className="mb-8">
-                    <h3 className="text-xl font-semibold">{experience.title}</h3>
+                    <h3 className="text-xl font-semibold text-center">{experience.title}</h3>
                     <p className="subheader mt-2 text-center">{experience.company}</p>
                     <p className="subsubheader text-center">{experience.date}</p>
                     <p className="mt-2">{experience.description}</p>
@@ -85,29 +87,34 @@ const ProjectList: React.FC<{
                 {experience.projects.map((project) => (
                     <div
                         key={project.id}
-                        className="card mb-4 cursor-pointer"
+                        className="card mb-4 cursor-pointer flex"
                         onClick={() => handleProjectClick(project)}
                     >
-                        <div className="flex items-center mb-2">
-                            <img
-                                src={
-                                    project.image.startsWith('https://')
-                                        ? project.image
-                                        : `${process.env.PUBLIC_URL}/images/${project.image}`
-                                }
-                                alt={project.title}
-                                className="w-12 h-12 rounded-full mr-4"
-                            />
-                            <div>
-                                <h4 className="font-semibold text-left">{project.title}</h4>
-                                <p className="subsubheader">{project.date}</p>
+                        <div className="flex-1 inner">
+                            <div className="flex items-center">
+
+                                <div>
+                                    <h4 className="font-semibold text-left">{project.title}</h4>
+                                    <p className="subsubheader">{project.date}</p>
+                                </div>
+
                             </div>
+                            {
+                                project.description.substring(0, 100) ? (
+                                    <p className="subsubheader mt-2">{project.description.substring(0, 100) + ((project.description.substring(0, 100) == project.description) ? "" : "...")}</p>
+                                ) : <></>
+                            }
                         </div>
-                        {
-                            project.description.substring(0, 100) ? (
-                                <p className="subsubheader">{project.description.substring(0, 100) + ((project.description.substring(0, 100) == project.description) ? "" : "...")}</p>
-                            ) : <></>
-                        }
+                        {project.image && <img
+                            src={
+                                project.image.startsWith('https://')
+                                    ? project.image
+                                    : `${process.env.PUBLIC_URL}/images/${project.image}`
+
+                            }
+                            alt={project.title}
+                            className="size-36"
+                        />}
                     </div>
                 ))}
             </div>
@@ -116,7 +123,7 @@ const ProjectList: React.FC<{
 );
 
 const ProjectDetails: React.FC<{ project: Project; handleClose: () => void }> = ({ project, handleClose }) => (
-    <div className="card padcard fixed top-40 right-0 bottom-4 w-1/2 shadow-lg p-8 overflow-y-auto" style={{ maxWidth: 'calc(37.5% - 16px)', right: 'calc(12.5% + 8px)' }}>
+    <div className="panel black-scrollbar thin-scrollbar" style={{ maxWidth: 'calc(37.5% - 16px)', right: 'calc(12.5% + 8px)' }}>
         <button
             onClick={handleClose}
             className="absolute top-4 right-4"

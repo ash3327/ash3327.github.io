@@ -57,7 +57,11 @@
 
 /* Cards */
 .card {
-  @apply bg-gray-700 p-4 rounded-lg shadow
+  @apply bg-gray-700 rounded-lg overflow-hidden shadow
+}
+
+.card div.inner {
+  @apply p-4
 }
 
 .padcard {
@@ -69,12 +73,29 @@
 }
 
 .subsubheader {
-  @apply text-sm text-gray-300 mb-2
+  @apply text-sm text-gray-300
 }
 
+/* Panels */
+
+.panel {
+  @apply card padcard fixed top-40 right-0 bottom-4 w-1/2 shadow-lg p-8 overflow-y-auto
+}
+
+/* Tokens */
 .token {
   @apply bg-gray-600 text-white px-3 py-1 rounded-full text-sm
 }
 .token:hover {
   @apply bg-gray-500
+}
+
+/* Scrollbars */
+.black-scrollbar {
+  overflow-y: scroll;
+  scrollbar-color: black transparent;
+}
+.thin-scrollbar {
+  overflow-y: scroll;
+  scrollbar-width: thin;
 }
