@@ -12,7 +12,7 @@ export default function About() {
             <h2>About Me</h2>
 
             <p>
-              Hi! I'm Sam, an AI enthusiast and app developer, currently in my final year at the Chinese University of Hong Kong.
+              Hi! I'm Sam, a student majoring in Artificial Intelligence, currently in my final year at the Chinese University of Hong Kong.
             </p>
             <p>
               My experience primarily revolves around Python, TensorFlow, and PyTorch. I actively engage in working on personal projects and regularly read research papers in the field. I also have some experience in Java and am eager to learn new skills as needed.

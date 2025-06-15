@@ -1,13 +1,13 @@
 {
     "projects": [
         {
-            "name": "Calendar App Project \"Oasis\"",
+            "name": "Event-Planning App \"Oasis\"",
             "description": "A mobile event planning app for Android using Java. Migrated to RoomDatabase for robust data management.",
             "image": "pages/oasis/demo-1.jpeg",
             "github": "https://github.com/ash3327/OasisPlanner/tree/development"
         },
         {
-            "name": "Deep Q-Learning Shooter Game Project \"SnowFight\"",
+            "name": "Deep Q-Learning Agent for Third-Person Shooter Game \"SnowFight\"",
             "description": "An agent playing a custom shooter game using Deep Q-learning. Enhanced agent performance through hyperparameter tuning.",
             "image": "pages/snowfight/results-2.gif",
             "github": "https://github.com/ash3327/SnowFight"
@@ -211,12 +211,12 @@
     "slides": [
         {
             "image": "pages/oasis/demo-1.jpeg",
-            "title": "Calendar App Project \"Oasis\"",
+            "title": "Event-Planning App \"Oasis\"",
             "description": "A mobile event planning app for Android"
         },
         {
             "image": "pages/snowfight/results-2.gif",
-            "title": "Deep Q-Learning Shooter Game \"SnowFight\"",
+            "title": "Deep Q-Learning Agent for Third-Person Shooter Game \"SnowFight\"",
             "description": "AI-powered game using reinforcement learning"
         },
         {
@@ -274,7 +274,7 @@
                 "company": "The Chinese University of Hong Kong",
                 "date": "2023 - 2024",
                 "description": "",
-                "image": "",
+                "image": "awards/cse_award.png",
                 "skills": [],
                 "links": {
                     "Certificate": {"link": "/archive/cse_outstanding_academic_award_bronze.pdf", "icon":"fa fa-link"}
@@ -287,22 +287,34 @@
                 "company": "The Chinese University of Hong Kong",
                 "date": "2021 - 2023",
                 "description": "",
-                "image": "",
+                "image": "awards/deansListVerification.png",
                 "skills": [],
                 "links": {
                     "Certificate": {"link": "/archive/deansListVerification.pdf#page=1", "icon":"fa fa-link"}
                 },
-                "details": []
-            },
-            {
-                "id": "2122CollegeHeadsList",
-                "title": "College Head's List",
-                "company": "The Chinese University of Hong Kong",
-                "date": "2021 - 2022",
-                "description": "",
-                "image": "",
-                "skills": [],
-                "details": []
+                "details": [],
+                "extras": [
+                    {
+                        "id": "2122CollegeHeadsList",
+                        "title": "College Head's List",
+                        "company": "The Chinese University of Hong Kong",
+                        "date": "2021 - 2022",
+                        "description": "",
+                        "image": "",
+                        "skills": [],
+                        "details": []
+                    },
+                    {
+                        "id": "hksarscholarship",
+                        "title": "HKSAR Government Scholarship: Scholarships for Outstanding Performance",
+                        "company": "HKSAR Government",
+                        "date": "2024 - 2025",
+                        "description": "",
+                        "image": "",
+                        "skills": [],
+                        "details": []
+                    }
+                ]
             }
         ]
     },
@@ -335,10 +347,10 @@
             },
             {
                 "id": "Kaggle_ProteinClassification",
-                "title": "Protein Sequence Classification Kaggle Competition",
+                "title": "Antibiotic Resistance Genes (ARGs) Prediction",
                 "company": "The Chinese University of Hong Kong",
                 "date": "Mar 2024",
-                "description": "Applied ProtTrans transformer for protein sequence classification.",
+                "description": "",
                 "image": "",
                 "skills": [
                     "Python",
@@ -350,8 +362,8 @@
                     "Competition": {"link": "https://www.kaggle.com/competitions/aist4010-spring2024-a2", "icon": "fa fa-link"}
                 },
                 "details": [
-                    "Applied pretrained ProtTrans transformer model and trained a fully-connected classifier head.",
-                    "Achieved 98.438% accuracy on public leaderboard and 94.161% accuracy on private leaderboard."
+                    "Fine-tuned a pretrained ProtTrans transformer model and trained a fully-connected classifier head to classify antibiotic resistance genes, achieved \textbf{0.94 macro F-score}.",
+                    "Parsed FASTA protein sequences using <b>Bio.SeqIO</b> to generate model inputs."
                 ]
             },
             {
@@ -517,9 +529,9 @@
         "projects": [
             {
                 "id": "oasis",
-                "title": "Calendar App Project \"Oasis\"",
+                "title": "Event-Planning App",
                 "company": "Self Project",
-                "date": "Mar 2023 - Temporarily Halted in Jun 2024",
+                "date": "Mar 2023 - Jun 2024",
                 "description": "A mobile event planning app for Android using Java.",
                 "image": "pages/oasis/demo-1.jpeg",
                 "skills": [
@@ -539,7 +551,7 @@
             },
             {
                 "id": "regsubjer",
-                "title": "Automatic Clicker \"RegSubjer\"",
+                "title": "Timed Automatic Clicker for Course Registration",
                 "company": "Self Project",
                 "date": "Aug 2021, reworked on Jan 2022",
                 "description": "An automatic clicker for efficient course registration. ",
@@ -561,7 +573,7 @@
             },
             {
                 "id": "rpg",
-                "title": "Archaic RPG game",
+                "title": "Java handcrafted 2D RPG game",
                 "company": "Self Project",
                 "date": "Jan 2020 - Nov 2021",
                 "description": "A customizable RPG game with map creation tools.",

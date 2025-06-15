@@ -131,7 +131,7 @@ const ProjectDetails: React.FC<{ project: Project; handleClose: () => void }> = 
             <ChevronRight className="h-6 w-6" />
         </button>
         <div>
-            <h2 className="text-3xl font-bold mb-4">{project.title}</h2>
+            <h2 className="text-2xl font-bold mb-4 text-left">{project.title}</h2>
             <p className="subheader mb-2">{project.company}</p>
             <p className="subsubheader mb-4">{project.date}</p>
             <div className="flex flex-wrap gap-2 mb-6">
@@ -167,10 +167,10 @@ const ProjectDetails: React.FC<{ project: Project; handleClose: () => void }> = 
                     </span>
                 ))}
             </div>
-            <p className="mb-6">{project.description}</p>
+            <p dangerouslySetInnerHTML={{ __html: project.description }}></p>
             <ul className="list-disc pl-5 mb-6">
                 {project.details.map((detail, index) => (
-                    <li key={index} className="mb-2 text-left">{detail}</li>
+                    <li key={index} className="mb-2 text-left" dangerouslySetInnerHTML={{ __html: detail }}></li>
                 ))}
             </ul>
             {
